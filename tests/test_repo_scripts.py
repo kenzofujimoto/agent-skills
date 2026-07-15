@@ -27,17 +27,26 @@ def run_command(command: list[str], cwd: Path = REPO_ROOT) -> subprocess.Complet
 def test_manifest_has_motion_site_builder() -> None:
     manifest = json.loads((REPO_ROOT / "skills.json").read_text(encoding="utf-8"))
     assert manifest["schemaVersion"] == 1
-    assert manifest["skills"] == [
-        {
-            "name": "motion-site-builder",
-            "version": "1.3.0",
-            "status": "stable",
-            "path": "skills/motion-site-builder",
-            "description": "Architecture and implementation skill for premium animated websites, dynamic frontends and WebGL experiences.",
-            "categories": ["frontend", "motion-design", "ui-ux", "threejs", "gsap"],
-            "targets": ["agents", "codex", "claude"],
-        }
-    ]
+    skills = {entry["name"]: entry for entry in manifest["skills"]}
+    assert set(skills) == {"motion-site-builder", "scroll-world-browser", "ui-ux-pro-max"}
+    assert skills["motion-site-builder"]["version"] == "1.3.0"
+    assert skills["scroll-world-browser"]["version"] == "1.0.0"
+    assert skills["ui-ux-pro-max"]["version"] == "2.11.0"
+    for name, entry in skills.items():
+        assert entry["status"] == "stable"
+        assert entry["path"] == f"skills/{name}"
+        assert entry["targets"] == ["agents", "codex", "claude"]
+
+
+@pytest.mark.parametrize("name", ["scroll-world-browser", "ui-ux-pro-max"])
+def test_bundled_dependency_has_license_and_provenance(name: str) -> None:
+    skill = REPO_ROOT / "skills" / name
+    for filename in ("SKILL.md", "README.md", "CHANGELOG.md", "VERSION", "LICENSE", "UPSTREAM.md"):
+        assert (skill / filename).is_file(), f"missing skills/{name}/{filename}"
+    assert "MIT License" in (skill / "LICENSE").read_text(encoding="utf-8")
+    upstream = (skill / "UPSTREAM.md").read_text(encoding="utf-8")
+    assert "https://github.com/" in upstream
+    assert "MIT" in upstream
 
 
 def test_repository_validator_passes() -> None:
@@ -46,7 +55,15 @@ def test_repository_validator_passes() -> None:
     assert "Validation passed" in result.stdout
 
 
-def test_package_script_creates_flat_skill_archive() -> None:
+@pytest.mark.parametrize(
+    ("name", "version"),
+    [
+        ("motion-site-builder", "1.3.0"),
+        ("scroll-world-browser", "1.0.0"),
+        ("ui-ux-pro-max", "2.11.0"),
+    ],
+)
+def test_package_script_creates_flat_skill_archive(name: str, version: str) -> None:
     result = run_command(
         [
             "pwsh",
@@ -54,19 +71,19 @@ def test_package_script_creates_flat_skill_archive() -> None:
             "-File",
             "scripts/package-skill.ps1",
             "-Name",
-            "motion-site-builder",
+            name,
         ]
     )
     assert result.returncode == 0, result.stdout + result.stderr
-    archive = REPO_ROOT / "dist/motion-site-builder-v1.3.0.zip"
+    archive = REPO_ROOT / f"dist/{name}-v{version}.zip"
     checksum = archive.with_suffix(".zip.sha256")
     assert archive.is_file()
     assert checksum.is_file()
     with zipfile.ZipFile(archive) as package:
         names = package.namelist()
     assert "SKILL.md" in names
-    assert not any(name.startswith("motion-site-builder/") for name in names)
-    assert not any("__pycache__" in name for name in names)
+    assert not any(path.startswith(f"{name}/") for path in names)
+    assert not any("__pycache__" in path for path in names)
 
 
 def test_install_script_replaces_target_and_excludes_temporary_files(tmp_path: Path) -> None:
