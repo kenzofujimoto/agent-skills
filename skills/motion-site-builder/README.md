@@ -23,12 +23,12 @@ Industry profiles pair audience expectations with trust signals, content priorit
 
 Sketchfab discovery is browser-assisted and optional. Search, license review, attribution capture, download, inspection, and optimization are separate gates. No model is bundled with this repository, and a model must not ship until its individual license is verified.
 
-## Optional integrations
+## Bundled companion skills
 
-- [UI UX Pro Max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) can contribute design-system and interface research.
-- [scroll-world](https://github.com/oso95/scroll-world) can support a browser-based scroll experience workflow.
+- [`ui-ux-pro-max`](../ui-ux-pro-max) contributes design-system and interface research.
+- [`scroll-world-browser`](../scroll-world-browser) supports browser-assisted cinematic media workflows.
 
-These projects are external, not included here, and not maintained by this repository.
+Both companion skills are included in this repository and can be installed alongside `motion-site-builder`. Their upstream projects, licenses, and provenance remain documented in their respective directories.
 
 ## Installation
 

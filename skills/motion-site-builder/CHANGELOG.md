@@ -4,6 +4,10 @@ All notable changes to `motion-site-builder` follow Keep a Changelog and Semanti
 
 ## [Unreleased]
 
+### Changed
+
+- Documented `ui-ux-pro-max` and `scroll-world-browser` as bundled companion skills.
+
 ## [1.3.0] - 2026-07-15
 
 ### Added

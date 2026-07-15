@@ -9,6 +9,8 @@ Reusable agent skills for Codex, Claude Code, and compatible AI coding agents. T
 | Skill | Version | Category | Status | Description | Source |
 | --- | --- | --- | --- | --- | --- |
 | `motion-site-builder` | 1.3.0 | frontend / motion / design | stable | Plans and implements premium animated sites and WebGL experiences. | [`skills/motion-site-builder`](skills/motion-site-builder) |
+| `scroll-world-browser` | 1.0.0 | frontend / motion / browser automation | stable | Builds cinematic scroll-scrubbed journeys with browser-assisted media workflows. | [`skills/scroll-world-browser`](skills/scroll-world-browser) |
+| `ui-ux-pro-max` | 2.11.0 | UI/UX / design systems | stable | Searches structured design intelligence and produces implementation-aware design systems. | [`skills/ui-ux-pro-max`](skills/ui-ux-pro-max) |
 
 ## Compatibility
 
@@ -79,14 +81,14 @@ The command copies the professional template, substitutes placeholders, creates 
 
 Packages are written to `dist/<name>-v<version>.zip` with an adjacent SHA-256 file. `SKILL.md` is placed at the archive root.
 
-## Optional integrations
+## Bundled companion skills
 
 `motion-site-builder` can coordinate with:
 
-- [UI UX Pro Max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) for optional design-system research;
-- [scroll-world](https://github.com/oso95/scroll-world) through an optional browser workflow.
+- [`ui-ux-pro-max`](skills/ui-ux-pro-max) for design-system and interface research;
+- [`scroll-world-browser`](skills/scroll-world-browser) for browser-assisted cinematic media workflows.
 
-Neither project is included in or maintained by this repository.
+Both companion skills are distributed in this repository. `ui-ux-pro-max` is pinned to the official upstream `v2.11.0` release, while `scroll-world-browser` is a browser-provider adaptation derived from [oso95/scroll-world](https://github.com/oso95/scroll-world). Their upstream MIT notices and provenance are preserved inside each skill.
 
 ## Security and licensing
 

@@ -9,6 +9,8 @@ Português (Brasil) · [English](README.md)
 | Skill | Versão | Categoria | Status | Descrição | Fonte |
 | --- | --- | --- | --- | --- | --- |
 | `motion-site-builder` | 1.3.0 | frontend / motion / design | stable | Planeja e implementa sites animados premium e experiências WebGL. | [`skills/motion-site-builder`](skills/motion-site-builder) |
+| `scroll-world-browser` | 1.0.0 | frontend / motion / automação de navegador | stable | Cria jornadas cinematográficas com scrub por scroll e geração de mídia via navegador. | [`skills/scroll-world-browser`](skills/scroll-world-browser) |
+| `ui-ux-pro-max` | 2.11.0 | UI/UX / design systems | stable | Pesquisa inteligência de design estruturada e produz design systems orientados à implementação. | [`skills/ui-ux-pro-max`](skills/ui-ux-pro-max) |
 
 ## Compatibilidade
 
@@ -71,9 +73,9 @@ O comando cria a versão `0.1.0` e registra uma entrada inicial em `skills.json`
 
 O pacote e seu SHA-256 são criados em `dist/`, que não é versionado.
 
-## Integrações opcionais
+## Skills complementares incluídas
 
-A skill pode coordenar [UI UX Pro Max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) e [scroll-world](https://github.com/oso95/scroll-world). Esses projetos não estão incluídos e não são mantidos neste repositório.
+A `motion-site-builder` pode coordenar [`ui-ux-pro-max`](skills/ui-ux-pro-max) para pesquisa de design systems e [`scroll-world-browser`](skills/scroll-world-browser) para fluxos cinematográficos assistidos por navegador. Ambas são distribuídas neste repositório com licença e proveniência preservadas. A primeira está fixada na release upstream `v2.11.0`; a segunda é uma adaptação derivada de [oso95/scroll-world](https://github.com/oso95/scroll-world).
 
 ## Segurança, licenças e roadmap
 
