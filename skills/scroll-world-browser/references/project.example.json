@@ -1,0 +1,70 @@
+{
+  "brand": {
+    "name": "Pearl & Co.",
+    "subject": "a premium bubble tea company, from leaf to last sip",
+    "tone": "cozy premium",
+    "palette": [
+      "cream #F5EDE0",
+      "taro #9B7EBD",
+      "caramel #C88A5A",
+      "matcha #8FB98A",
+      "plum #3A2E48"
+    ],
+    "background": "#F5EDE0",
+    "accent": "#9B7EBD"
+  },
+  "providers": {
+    "images": "chatgpt",
+    "video": "gemini"
+  },
+  "architecture": "extend",
+  "continuity_grade": "A",
+  "mobile": true,
+  "style": "Isometric low-poly 3D diorama floating as a small rounded island on a plain solid #F5EDE0 background with a soft contact shadow beneath it. Soft matte clay render, rounded toy-model shapes, gentle warm studio lighting, soft long shadows and a tilt-shift miniature look. Cohesive palette of cream #F5EDE0, taro #9B7EBD, caramel #C88A5A, matcha #8FB98A, plum #3A2E48. Highly detailed, centered composition, absolutely no text, letters, numbers or logos.",
+  "anchor_subject": "a flagship bubble tea shop surrounded by tea leaves, tapioca pearls and delivery scooters",
+  "sections": [
+    {
+      "id": "farm",
+      "label": "The farms",
+      "subject": "terraced tea fields with workers harvesting leaves, baskets and a tiny processing shed",
+      "focal_point": "the central harvest path",
+      "next_direction": "the processing-room doorway",
+      "eyebrow": "FROM THE SOURCE",
+      "title": "It starts in the hills.",
+      "body": "Carefully selected leaves begin every cup.",
+      "tags": ["Single-origin", "Hand-picked"],
+      "scroll": 1.5,
+      "linger": 0.25
+    },
+    {
+      "id": "kitchen",
+      "label": "The kitchen",
+      "subject": "a warm pearl kitchen with copper cauldrons, tea tanks and staff preparing tapioca",
+      "focal_point": "the glowing central cauldron",
+      "next_direction": "the service counter opening",
+      "eyebrow": "MADE FRESH",
+      "title": "Crafted every morning.",
+      "body": "Tea, pearls and toppings are prepared in small batches.",
+      "tags": ["Small batch", "Fresh daily"],
+      "scroll": 1.3,
+      "linger": 0.2
+    },
+    {
+      "id": "finale",
+      "label": "Your cup",
+      "subject": "one oversized signature bubble tea cup as the hero object with small ingredients orbiting it",
+      "focal_point": "the signature cup",
+      "next_direction": "the softly lit background beyond the product",
+      "eyebrow": "YOUR NEXT FAVORITE",
+      "title": "Meet your perfect cup.",
+      "body": "Choose your tea, sweetness and toppings.",
+      "tags": ["Made your way"],
+      "scroll": 1.8,
+      "linger": 0.4,
+      "cta": {
+        "label": "Build your drink",
+        "href": "#order"
+      }
+    }
+  ]
+}

@@ -19,6 +19,24 @@
         "codex",
         "claude"
       ]
+    },
+    {
+      "name": "scroll-world-browser",
+      "version": "1.0.0",
+      "status": "stable",
+      "path": "skills/scroll-world-browser",
+      "description": "Browser-assisted workflow for cinematic scroll-scrubbed landing pages with generated stills, motion clips and a portable playback engine.",
+      "categories": [
+        "frontend",
+        "motion-design",
+        "browser-automation",
+        "video"
+      ],
+      "targets": [
+        "agents",
+        "codex",
+        "claude"
+      ]
     }
   ]
 }
