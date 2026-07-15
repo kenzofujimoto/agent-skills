@@ -37,6 +37,24 @@
         "codex",
         "claude"
       ]
+    },
+    {
+      "name": "ui-ux-pro-max",
+      "version": "2.11.0",
+      "status": "stable",
+      "path": "skills/ui-ux-pro-max",
+      "description": "Searchable UI/UX design intelligence with styles, palettes, typography, product patterns, accessibility guidance and stack-specific recommendations.",
+      "categories": [
+        "ui-ux",
+        "design-system",
+        "frontend",
+        "accessibility"
+      ],
+      "targets": [
+        "agents",
+        "codex",
+        "claude"
+      ]
     }
   ]
 }
