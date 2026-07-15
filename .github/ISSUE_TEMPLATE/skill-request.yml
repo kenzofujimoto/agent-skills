@@ -1,0 +1,24 @@
+name: Skill request
+description: Propose a reusable skill for the catalog.
+title: "[Skill]: "
+labels: [enhancement]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Proposed slug
+      placeholder: example-skill
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Intended outcome and users
+    validations:
+      required: true
+  - type: textarea
+    id: portability
+    attributes:
+      label: Agent compatibility and external dependencies
+    validations:
+      required: true

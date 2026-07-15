@@ -1,0 +1,50 @@
+{
+  "project": "Example Project",
+  "stack": "nextjs",
+  "motionIntensity": 7,
+  "dominantEngine": "gsap",
+  "secondaryEngine": "motion",
+  "budget": {
+    "specialSections": 2,
+    "webglCanvases": 1,
+    "continuousAnimations": 3,
+    "decorativeEffectsPerViewport": 2,
+    "targetDesktopFps": 55,
+    "targetMobileFps": 45
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "renderMode": "full-bleed-cinematic",
+      "engine": "gsap",
+      "assetType": "still-2.5d",
+      "containerRatio": "16:9",
+      "assetRatio": "16:9",
+      "preferredResolution": "1920x1080",
+      "safeArea": 0.12,
+      "fit": "cover",
+      "objectPosition": "50% 50%",
+      "initialScale": 1.0,
+      "maxScale": 1.04,
+      "trigger": "scroll-scrub",
+      "backgroundStrategy": "full-bleed",
+      "reducedMotion": "static-poster"
+    },
+    {
+      "id": "feature",
+      "renderMode": "framed-media-stage",
+      "engine": "motion",
+      "assetType": "layered-2.5d",
+      "containerRatio": "4:3",
+      "assetRatio": "4:3",
+      "safeArea": 0.08,
+      "fit": "cover",
+      "objectPosition": "50% 50%",
+      "initialScale": 1.0,
+      "maxScale": 1.03,
+      "trigger": "enter-and-hover",
+      "backgroundStrategy": "stage",
+      "reducedMotion": "static-stage"
+    }
+  ]
+}

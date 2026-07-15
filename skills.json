@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "skills": [
+    {
+      "name": "motion-site-builder",
+      "version": "1.3.0",
+      "status": "stable",
+      "path": "skills/motion-site-builder",
+      "description": "Architecture and implementation skill for premium animated websites, dynamic frontends and WebGL experiences.",
+      "categories": [
+        "frontend",
+        "motion-design",
+        "ui-ux",
+        "threejs",
+        "gsap"
+      ],
+      "targets": [
+        "agents",
+        "codex",
+        "claude"
+      ]
+    }
+  ]
+}

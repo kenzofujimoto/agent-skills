@@ -1,0 +1,30 @@
+{
+  "uid": "MODEL_UID",
+  "title": "Model title",
+  "url": "https://sketchfab.com/3d-models/...",
+  "author": {
+    "name": "Author",
+    "url": "https://sketchfab.com/..."
+  },
+  "downloadable": true,
+  "license": {
+    "name": "CC Attribution",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "licenseGate": {
+    "status": "pass",
+    "reason": "Commercial use and modification allowed with attribution."
+  },
+  "metrics": {
+    "visualFit": 22,
+    "technicalWebSuitability": 16,
+    "animationSuitability": 12,
+    "licenseCompatibility": 15,
+    "optimizationHeadroom": 8,
+    "materialTextureQuality": 8,
+    "provenanceConfidence": 5
+  },
+  "total": 86,
+  "notes": [],
+  "decision": "shortlist"
+}

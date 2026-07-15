@@ -1,0 +1,4538 @@
+{
+  "version": "1.3.0",
+  "generatedAt": "2026-07-15",
+  "industries": [
+    {
+      "id": "ai-saas",
+      "label_pt": "IA e SaaS",
+      "label_en": "AI & SaaS",
+      "group": "Tecnologia e B2B",
+      "keywords": [
+        "ai",
+        "artificial intelligence",
+        "saas",
+        "software platform",
+        "copilot",
+        "agent",
+        "automation"
+      ],
+      "subindustries": [
+        "AI products",
+        "horizontal SaaS",
+        "vertical SaaS",
+        "automation",
+        "agents",
+        "enterprise software"
+      ],
+      "goals": [
+        "explain a novel product quickly",
+        "demonstrate product value",
+        "capture qualified leads",
+        "build trust in an emerging category"
+      ],
+      "content": [
+        "clear product promise",
+        "real product UI",
+        "use cases",
+        "integrations",
+        "security and trust",
+        "pricing or access path"
+      ],
+      "motion": [
+        "systems assembling",
+        "data flowing",
+        "interface transformation",
+        "progressive disclosure",
+        "cause-and-effect interactions"
+      ],
+      "archetypes": [
+        "product-demo",
+        "product-launch",
+        "lead-generation",
+        "interactive-storytelling"
+      ],
+      "engines": [
+        "Motion",
+        "GSAP",
+        "DOM/SVG",
+        "Three.js only for one abstract showcase"
+      ],
+      "media": [
+        "real UI in DOM",
+        "product recordings",
+        "abstract 3D used sparingly",
+        "architecture diagrams"
+      ],
+      "conversion": [
+        "interactive demo",
+        "request access",
+        "start free",
+        "book demo"
+      ],
+      "avoid": [
+        "generic purple AI gradients",
+        "fake unreadable dashboards",
+        "decorative code",
+        "holograms without product meaning"
+      ],
+      "intensity": [
+        5,
+        8
+      ],
+      "risk": "standard",
+      "references": [
+        [
+          "OpenAI",
+          "https://openai.com/",
+          "market-product"
+        ],
+        [
+          "Anthropic",
+          "https://www.anthropic.com/",
+          "market-product"
+        ],
+        [
+          "Linear",
+          "https://linear.app/",
+          "product-motion"
+        ],
+        [
+          "Vercel",
+          "https://vercel.com/",
+          "developer-brand"
+        ]
+      ]
+    },
+    {
+      "id": "developer-tools-cloud",
+      "label_pt": "Ferramentas de desenvolvimento e cloud",
+      "label_en": "Developer Tools & Cloud",
+      "group": "Tecnologia e B2B",
+      "keywords": [
+        "developer tools",
+        "cloud",
+        "api",
+        "database",
+        "observability",
+        "hosting",
+        "infrastructure"
+      ],
+      "subindustries": [
+        "cloud platforms",
+        "databases",
+        "observability",
+        "APIs",
+        "hosting",
+        "open source"
+      ],
+      "goals": [
+        "communicate technical depth",
+        "accelerate evaluation",
+        "drive documentation or signup",
+        "build developer credibility"
+      ],
+      "content": [
+        "working code samples",
+        "architecture",
+        "benchmarks",
+        "docs entry points",
+        "pricing",
+        "status and security"
+      ],
+      "motion": [
+        "request-response flows",
+        "deployment pipelines",
+        "terminal-to-product transitions",
+        "network graphs",
+        "live code feedback"
+      ],
+      "archetypes": [
+        "developer-product",
+        "product-demo",
+        "documentation-hub",
+        "interactive-diagram"
+      ],
+      "engines": [
+        "DOM/CSS",
+        "Motion",
+        "GSAP for architecture narratives",
+        "WebGL only for meaningful topology"
+      ],
+      "media": [
+        "code in DOM",
+        "terminal simulations",
+        "system diagrams",
+        "real screenshots"
+      ],
+      "conversion": [
+        "create project",
+        "read docs",
+        "view demo",
+        "contact sales"
+      ],
+      "avoid": [
+        "code as unreadable decoration",
+        "long intro loaders",
+        "hiding docs",
+        "fake benchmark data"
+      ],
+      "intensity": [
+        4,
+        7
+      ],
+      "risk": "standard",
+      "references": [
+        [
+          "GitHub",
+          "https://github.com/",
+          "platform"
+        ],
+        [
+          "Supabase",
+          "https://supabase.com/",
+          "developer-brand"
+        ],
+        [
+          "Cloudflare",
+          "https://www.cloudflare.com/",
+          "infrastructure"
+        ],
+        [
+          "Sentry",
+          "https://sentry.io/",
+          "observability"
+        ]
+      ]
+    },
+    {
+      "id": "cybersecurity",
+      "label_pt": "Cibersegurança",
+      "label_en": "Cybersecurity",
+      "group": "Tecnologia e B2B",
+      "keywords": [
+        "cybersecurity",
+        "security",
+        "soc",
+        "zero trust",
+        "identity",
+        "threat",
+        "risk"
+      ],
+      "subindustries": [
+        "endpoint security",
+        "cloud security",
+        "identity",
+        "SOC",
+        "GRC",
+        "security automation"
+      ],
+      "goals": [
+        "establish trust",
+        "explain protection coverage",
+        "support enterprise evaluation",
+        "generate qualified pipeline"
+      ],
+      "content": [
+        "threat model",
+        "coverage map",
+        "proof and certifications",
+        "integrations",
+        "response workflow",
+        "customer evidence"
+      ],
+      "motion": [
+        "attack path blocked",
+        "layers of defense",
+        "risk propagation",
+        "signal correlation",
+        "response timeline"
+      ],
+      "archetypes": [
+        "enterprise-lead-generation",
+        "interactive-diagram",
+        "product-demo",
+        "trust-center"
+      ],
+      "engines": [
+        "DOM/SVG",
+        "GSAP for flows",
+        "Motion for UI",
+        "limited particles"
+      ],
+      "media": [
+        "network diagrams",
+        "real console UI",
+        "attack-path visualization",
+        "customer evidence"
+      ],
+      "conversion": [
+        "request demo",
+        "security assessment",
+        "contact sales",
+        "view platform"
+      ],
+      "avoid": [
+        "fear-only messaging",
+        "green hacker clichés",
+        "invented threat metrics",
+        "excessive glitch effects"
+      ],
+      "intensity": [
+        3,
+        6
+      ],
+      "risk": "high-trust",
+      "references": [
+        [
+          "CrowdStrike",
+          "https://www.crowdstrike.com/",
+          "enterprise"
+        ],
+        [
+          "Wiz",
+          "https://www.wiz.io/",
+          "cloud-security"
+        ],
+        [
+          "1Password",
+          "https://1password.com/",
+          "identity"
+        ],
+        [
+          "Tines",
+          "https://www.tines.com/",
+          "security-automation"
+        ]
+      ]
+    },
+    {
+      "id": "productivity-collaboration",
+      "label_pt": "Produtividade e colaboração",
+      "label_en": "Productivity & Collaboration",
+      "group": "Tecnologia e B2B",
+      "keywords": [
+        "productivity",
+        "collaboration",
+        "workspace",
+        "project management",
+        "design tool",
+        "teamwork"
+      ],
+      "subindustries": [
+        "docs",
+        "project management",
+        "design collaboration",
+        "communications",
+        "databases"
+      ],
+      "goals": [
+        "show workflow improvement",
+        "make collaboration tangible",
+        "drive trial",
+        "demonstrate flexibility"
+      ],
+      "content": [
+        "real workflows",
+        "templates",
+        "collaboration states",
+        "integrations",
+        "permissions",
+        "cross-device behavior"
+      ],
+      "motion": [
+        "objects reorganizing",
+        "multiplayer presence",
+        "state transitions",
+        "drag and drop",
+        "workspace expansion"
+      ],
+      "archetypes": [
+        "product-demo",
+        "interactive-workspace",
+        "template-gallery",
+        "self-serve-conversion"
+      ],
+      "engines": [
+        "Motion",
+        "DOM/CSS",
+        "GSAP only for major sequences"
+      ],
+      "media": [
+        "real product UI",
+        "cursor collaboration",
+        "template previews",
+        "short recordings"
+      ],
+      "conversion": [
+        "start free",
+        "use template",
+        "download app",
+        "book demo"
+      ],
+      "avoid": [
+        "over-simplified fake UI",
+        "too many floating cards",
+        "motion that obscures workflow"
+      ],
+      "intensity": [
+        4,
+        7
+      ],
+      "risk": "standard",
+      "references": [
+        [
+          "Notion",
+          "https://www.notion.so/product",
+          "workspace"
+        ],
+        [
+          "Figma",
+          "https://www.figma.com/",
+          "design-collaboration"
+        ],
+        [
+          "Slack",
+          "https://slack.com/",
+          "communications"
+        ],
+        [
+          "Airtable",
+          "https://www.airtable.com/",
+          "database-workflows"
+        ]
+      ]
+    },
+    {
+      "id": "professional-services-agencies",
+      "label_pt": "Serviços profissionais e agências",
+      "label_en": "Professional Services & Agencies",
+      "group": "Tecnologia e B2B",
+      "keywords": [
+        "agency",
+        "consulting",
+        "studio",
+        "design firm",
+        "professional services",
+        "portfolio"
+      ],
+      "subindustries": [
+        "consulting",
+        "creative agencies",
+        "design studios",
+        "digital product studios",
+        "strategy"
+      ],
+      "goals": [
+        "show authority and taste",
+        "present case studies",
+        "differentiate methodology",
+        "generate inquiries"
+      ],
+      "content": [
+        "selected work",
+        "capabilities",
+        "process",
+        "outcomes",
+        "team credibility",
+        "contact path"
+      ],
+      "motion": [
+        "editorial transitions",
+        "case-study reveals",
+        "typographic rhythm",
+        "portfolio navigation",
+        "image choreography"
+      ],
+      "archetypes": [
+        "portfolio",
+        "case-study-library",
+        "editorial-storytelling",
+        "lead-generation"
+      ],
+      "engines": [
+        "GSAP",
+        "Motion",
+        "DOM/CSS",
+        "WebGL for one signature moment"
+      ],
+      "media": [
+        "case-study imagery",
+        "showreels",
+        "editorial typography",
+        "interactive prototypes"
+      ],
+      "conversion": [
+        "start a project",
+        "view work",
+        "contact studio",
+        "read case study"
+      ],
+      "avoid": [
+        "effect soup",
+        "showreel before value",
+        "generic capability grids",
+        "copying award-site navigation blindly"
+      ],
+      "intensity": [
+        6,
+        9
+      ],
+      "risk": "creative",
+      "references": [
+        [
+          "IDEO",
+          "https://www.ideo.com/",
+          "innovation"
+        ],
+        [
+          "Pentagram",
+          "https://www.pentagram.com/",
+          "design-studio"
+        ],
+        [
+          "frog",
+          "https://www.frog.co/",
+          "consulting-design"
+        ],
+        [
+          "Refokus",
+          "https://www.refokus.com/",
+          "creative-development"
+        ]
+      ]
+    },
+    {
+      "id": "automotive",
+      "label_pt": "Automotivo",
+      "label_en": "Automotive",
+      "group": "Mobilidade, indústria e infraestrutura",
+      "keywords": [
+        "automotive",
+        "car",
+        "vehicle",
+        "performance car",
+        "luxury car",
+        "suv"
+      ],
+      "subindustries": [
+        "luxury vehicles",
+        "performance",
+        "mass market",
+        "commercial vehicles",
+        "aftermarket"
+      ],
+      "goals": [
+        "reveal product desirability",
+        "compare trims",
+        "show engineering",
+        "drive test-drive or dealer intent"
+      ],
+      "content": [
+        "exterior and interior",
+        "features",
+        "specifications",
+        "trim comparison",
+        "pricing",
+        "test-drive"
+      ],
+      "motion": [
+        "camera along body lines",
+        "light sweeps",
+        "exterior-to-interior",
+        "mechanical precision",
+        "road-flow"
+      ],
+      "archetypes": [
+        "product-launch",
+        "3d-configurator",
+        "spec-comparison",
+        "dealer-conversion"
+      ],
+      "engines": [
+        "GSAP",
+        "Three.js/R3F for exact licensed model",
+        "Motion for controls"
+      ],
+      "media": [
+        "licensed exact 3D model",
+        "high-end photography",
+        "technical diagrams",
+        "interior panoramas"
+      ],
+      "conversion": [
+        "configure",
+        "book test drive",
+        "find dealer",
+        "compare versions"
+      ],
+      "avoid": [
+        "generic car for a specific model",
+        "unlicensed vehicle models",
+        "reflections hiding form",
+        "specs hidden behind spectacle"
+      ],
+      "intensity": [
+        5,
+        9
+      ],
+      "risk": "product-accuracy",
+      "references": [
+        [
+          "Porsche",
+          "https://www.porsche.com/",
+          "luxury-performance"
+        ],
+        [
+          "Polestar",
+          "https://www.polestar.com/",
+          "electric-minimal"
+        ],
+        [
+          "Lucid Motors",
+          "https://lucidmotors.com/",
+          "electric-luxury"
+        ],
+        [
+          "Lotus Cars",
+          "https://www.lotuscars.com/",
+          "performance"
+        ]
+      ]
+    },
+    {
+      "id": "mobility-ev-autonomy",
+      "label_pt": "Mobilidade, EV e autonomia",
+      "label_en": "Mobility, EV & Autonomy",
+      "group": "Mobilidade, indústria e infraestrutura",
+      "keywords": [
+        "mobility",
+        "ev",
+        "autonomous",
+        "ride hailing",
+        "robotaxi",
+        "electric truck"
+      ],
+      "subindustries": [
+        "EV brands",
+        "autonomous vehicles",
+        "robotaxis",
+        "micromobility",
+        "electric logistics"
+      ],
+      "goals": [
+        "explain a new mobility model",
+        "build safety confidence",
+        "show network scale",
+        "drive adoption or partnerships"
+      ],
+      "content": [
+        "service area",
+        "safety",
+        "vehicle technology",
+        "operations",
+        "availability",
+        "impact"
+      ],
+      "motion": [
+        "route flow",
+        "sensor perception",
+        "city networks",
+        "vehicle choreography",
+        "energy movement"
+      ],
+      "archetypes": [
+        "map-explorer",
+        "product-launch",
+        "service-availability",
+        "technology-storytelling"
+      ],
+      "engines": [
+        "Map/WebGL selectively",
+        "GSAP",
+        "DOM/SVG",
+        "Motion"
+      ],
+      "media": [
+        "city maps",
+        "vehicle imagery",
+        "sensor diagrams",
+        "service simulations"
+      ],
+      "conversion": [
+        "check availability",
+        "join waitlist",
+        "book ride",
+        "partner inquiry"
+      ],
+      "avoid": [
+        "sci-fi claims unsupported by service",
+        "unsafe autonomous interactions",
+        "huge city scenes on mobile"
+      ],
+      "intensity": [
+        5,
+        8
+      ],
+      "risk": "safety-trust",
+      "references": [
+        [
+          "Rivian",
+          "https://rivian.com/",
+          "electric-vehicle"
+        ],
+        [
+          "Waymo",
+          "https://waymo.com/",
+          "autonomy"
+        ],
+        [
+          "Zoox",
+          "https://zoox.com/",
+          "robotaxi"
+        ],
+        [
+          "Einride",
+          "https://www.einride.tech/",
+          "electric-logistics"
+        ]
+      ]
+    },
+    {
+      "id": "aviation-aircraft",
+      "label_pt": "Aviação e aeronaves",
+      "label_en": "Aviation & Aircraft",
+      "group": "Mobilidade, indústria e infraestrutura",
+      "keywords": [
+        "aviation",
+        "aircraft",
+        "business jet",
+        "air taxi",
+        "airplane",
+        "aerospace manufacturer"
+      ],
+      "subindustries": [
+        "commercial aircraft",
+        "business aviation",
+        "eVTOL",
+        "aircraft manufacturing",
+        "maintenance"
+      ],
+      "goals": [
+        "show engineering and range",
+        "communicate safety and cabin experience",
+        "support sales",
+        "present fleet"
+      ],
+      "content": [
+        "aircraft family",
+        "range maps",
+        "cabin",
+        "performance",
+        "engineering",
+        "support network"
+      ],
+      "motion": [
+        "flight path",
+        "cutaway reveal",
+        "cabin traversal",
+        "wing airflow",
+        "altitude and range"
+      ],
+      "archetypes": [
+        "fleet-explorer",
+        "3d-product-viewer",
+        "range-map",
+        "sales-lead-generation"
+      ],
+      "engines": [
+        "Three.js/R3F for licensed models",
+        "GSAP",
+        "map visualization",
+        "Motion"
+      ],
+      "media": [
+        "aircraft 3D",
+        "cutaways",
+        "cabin panoramas",
+        "range maps",
+        "technical data"
+      ],
+      "conversion": [
+        "configure cabin",
+        "contact sales",
+        "compare aircraft",
+        "locate support"
+      ],
+      "avoid": [
+        "fictional performance data",
+        "unlicensed aircraft models",
+        "overly game-like controls",
+        "motion that implies unsafe behavior"
+      ],
+      "intensity": [
+        4,
+        8
+      ],
+      "risk": "safety-accuracy",
+      "references": [
+        [
+          "Airbus",
+          "https://www.airbus.com/",
+          "commercial-aircraft"
+        ],
+        [
+          "Gulfstream",
+          "https://www.gulfstream.com/",
+          "business-aviation"
+        ],
+        [
+          "Bombardier Aircraft",
+          "https://bombardier.com/en/aircraft",
+          "business-jets"
+        ],
+        [
+          "Archer",
+          "https://www.archer.com/",
+          "evtol"
+        ]
+      ]
+    },
+    {
+      "id": "airlines-travel-operations",
+      "label_pt": "Companhias aéreas e operações de viagem",
+      "label_en": "Airlines & Travel Operations",
+      "group": "Mobilidade, indústria e infraestrutura",
+      "keywords": [
+        "airline",
+        "flight booking",
+        "air travel",
+        "airport",
+        "loyalty",
+        "route network"
+      ],
+      "subindustries": [
+        "airlines",
+        "airports",
+        "loyalty programs",
+        "flight operations",
+        "premium travel"
+      ],
+      "goals": [
+        "enable booking",
+        "communicate service tiers",
+        "inspire destinations",
+        "support disruption handling"
+      ],
+      "content": [
+        "search and booking",
+        "routes",
+        "cabins",
+        "baggage",
+        "status",
+        "accessibility",
+        "loyalty"
+      ],
+      "motion": [
+        "route drawing",
+        "destination transitions",
+        "cabin reveals",
+        "journey progression"
+      ],
+      "archetypes": [
+        "booking-flow",
+        "destination-explorer",
+        "loyalty-portal",
+        "service-status"
+      ],
+      "engines": [
+        "DOM-first",
+        "Motion",
+        "maps",
+        "light GSAP for inspiration pages"
+      ],
+      "media": [
+        "destination photography",
+        "route maps",
+        "cabin imagery",
+        "service UI"
+      ],
+      "conversion": [
+        "search flights",
+        "manage trip",
+        "join loyalty",
+        "upgrade cabin"
+      ],
+      "avoid": [
+        "motion slowing booking",
+        "hiding fees or baggage rules",
+        "accessibility barriers",
+        "autoplay sound"
+      ],
+      "intensity": [
+        2,
+        6
+      ],
+      "risk": "transactional",
+      "references": [
+        [
+          "Emirates",
+          "https://www.emirates.com/",
+          "premium-airline"
+        ],
+        [
+          "Singapore Airlines",
+          "https://www.singaporeair.com/",
+          "service"
+        ],
+        [
+          "Delta",
+          "https://www.delta.com/",
+          "operations"
+        ],
+        [
+          "JetBlue",
+          "https://www.jetblue.com/",
+          "consumer-airline"
+        ]
+      ]
+    },
+    {
+      "id": "aerospace-space",
+      "label_pt": "Aeroespacial e espaço",
+      "label_en": "Aerospace & Space",
+      "group": "Mobilidade, indústria e infraestrutura",
+      "keywords": [
+        "space",
+        "rocket",
+        "satellite",
+        "launch",
+        "aerospace",
+        "mission"
+      ],
+      "subindustries": [
+        "launch providers",
+        "space agencies",
+        "satellites",
+        "lunar systems",
+        "space infrastructure"
+      ],
+      "goals": [
+        "communicate mission and capability",
+        "visualize scale",
+        "recruit talent",
+        "build public or investor confidence"
+      ],
+      "content": [
+        "missions",
+        "vehicles",
+        "timeline",
+        "technical capability",
+        "safety",
+        "science outcomes"
+      ],
+      "motion": [
+        "orbital paths",
+        "launch sequence",
+        "mission timeline",
+        "planetary scale",
+        "stage separation"
+      ],
+      "archetypes": [
+        "mission-storytelling",
+        "timeline",
+        "3d-vehicle-viewer",
+        "data-explorer"
+      ],
+      "engines": [
+        "Three.js/WebGL",
+        "GSAP",
+        "data visualization",
+        "scroll storytelling"
+      ],
+      "media": [
+        "licensed vehicle models",
+        "mission imagery",
+        "orbital visualizations",
+        "technical diagrams"
+      ],
+      "conversion": [
+        "explore mission",
+        "watch launch",
+        "join team",
+        "partner inquiry"
+      ],
+      "avoid": [
+        "invented mission claims",
+        "overwhelming starfield backgrounds",
+        "unbounded GPU use",
+        "cinematic effects over data"
+      ],
+      "intensity": [
+        6,
+        9
+      ],
+      "risk": "technical-accuracy",
+      "references": [
+        [
+          "NASA",
+          "https://www.nasa.gov/",
+          "space-agency"
+        ],
+        [
+          "SpaceX",
+          "https://www.spacex.com/",
+          "launch-provider"
+        ],
+        [
+          "Blue Origin",
+          "https://www.blueorigin.com/",
+          "spaceflight"
+        ],
+        [
+          "Rocket Lab",
+          "https://www.rocketlabusa.com/",
+          "launch-and-space-systems"
+        ]
+      ]
+    },
+    {
+      "id": "maritime-yachting",
+      "label_pt": "Marítimo e iates",
+      "label_en": "Maritime & Yachting",
+      "group": "Mobilidade, indústria e infraestrutura",
+      "keywords": [
+        "yacht",
+        "maritime",
+        "ship",
+        "marine",
+        "ocean exploration",
+        "boat"
+      ],
+      "subindustries": [
+        "superyachts",
+        "commercial marine",
+        "shipbuilding",
+        "ocean exploration",
+        "marine technology"
+      ],
+      "goals": [
+        "show craftsmanship and scale",
+        "present vessels",
+        "generate private inquiries",
+        "communicate exploration or engineering"
+      ],
+      "content": [
+        "fleet",
+        "interiors",
+        "craftsmanship",
+        "specifications",
+        "shipyard",
+        "voyages"
+      ],
+      "motion": [
+        "waterline reveal",
+        "deck traversal",
+        "hull profile",
+        "ocean depth",
+        "slow luxury camera"
+      ],
+      "archetypes": [
+        "vessel-explorer",
+        "portfolio",
+        "3d-product-viewer",
+        "private-inquiry"
+      ],
+      "engines": [
+        "GSAP",
+        "Three.js for licensed vessel",
+        "video/photo storytelling",
+        "maps"
+      ],
+      "media": [
+        "vessel photography",
+        "interior tours",
+        "3D models",
+        "route maps"
+      ],
+      "conversion": [
+        "view fleet",
+        "make inquiry",
+        "explore project",
+        "contact shipyard"
+      ],
+      "avoid": [
+        "fast flashy motion for luxury",
+        "unlicensed yacht models",
+        "fake water simulation as default",
+        "specs hidden"
+      ],
+      "intensity": [
+        4,
+        8
+      ],
+      "risk": "luxury-product",
+      "references": [
+        [
+          "Feadship",
+          "https://feadship.nl/",
+          "superyachts"
+        ],
+        [
+          "Lürssen",
+          "https://www.lurssen.com/en/",
+          "shipbuilding"
+        ],
+        [
+          "Sunseeker",
+          "https://www.sunseeker.com/",
+          "luxury-yachts"
+        ],
+        [
+          "OceanX",
+          "https://oceanx.org/",
+          "ocean-exploration"
+        ]
+      ]
+    },
+    {
+      "id": "industrial-robotics",
+      "label_pt": "Indústria e robótica",
+      "label_en": "Industrial & Robotics",
+      "group": "Mobilidade, indústria e infraestrutura",
+      "keywords": [
+        "industrial",
+        "robotics",
+        "automation",
+        "manufacturing",
+        "factory",
+        "robot"
+      ],
+      "subindustries": [
+        "industrial robots",
+        "automation",
+        "factory systems",
+        "machine vision",
+        "warehouse robotics"
+      ],
+      "goals": [
+        "show capability and reliability",
+        "explain workflows",
+        "support technical evaluation",
+        "generate enterprise leads"
+      ],
+      "content": [
+        "applications",
+        "payload and reach",
+        "integration",
+        "safety",
+        "case studies",
+        "service"
+      ],
+      "motion": [
+        "robot path",
+        "assembly sequence",
+        "exploded view",
+        "digital twin",
+        "throughput flow"
+      ],
+      "archetypes": [
+        "product-family-explorer",
+        "technical-configurator",
+        "interactive-diagram",
+        "enterprise-lead-generation"
+      ],
+      "engines": [
+        "Three.js/R3F",
+        "GSAP",
+        "SVG diagrams",
+        "Motion for controls"
+      ],
+      "media": [
+        "exact machine models",
+        "factory video",
+        "technical diagrams",
+        "simulation data"
+      ],
+      "conversion": [
+        "request quote",
+        "select application",
+        "download datasheet",
+        "contact integrator"
+      ],
+      "avoid": [
+        "robot spectacle without application",
+        "invented throughput",
+        "heavy 3D on every product card",
+        "unsafe interaction metaphors"
+      ],
+      "intensity": [
+        4,
+        8
+      ],
+      "risk": "technical-accuracy",
+      "references": [
+        [
+          "Boston Dynamics",
+          "https://bostondynamics.com/",
+          "advanced-robotics"
+        ],
+        [
+          "ABB",
+          "https://global.abb/",
+          "industrial-automation"
+        ],
+        [
+          "KUKA",
+          "https://www.kuka.com/",
+          "industrial-robots"
+        ],
+        [
+          "Universal Robots",
+          "https://www.universal-robots.com/",
+          "collaborative-robots"
+        ]
+      ]
+    },
+    {
+      "id": "construction-engineering",
+      "label_pt": "Construção e engenharia",
+      "label_en": "Construction & Engineering",
+      "group": "Mobilidade, indústria e infraestrutura",
+      "keywords": [
+        "construction",
+        "engineering",
+        "infrastructure",
+        "heavy equipment",
+        "civil engineering",
+        "jobsite"
+      ],
+      "subindustries": [
+        "heavy equipment",
+        "EPC",
+        "civil engineering",
+        "construction robotics",
+        "infrastructure"
+      ],
+      "goals": [
+        "show project capability",
+        "prove safety and delivery",
+        "present equipment",
+        "generate project or dealer leads"
+      ],
+      "content": [
+        "projects",
+        "capabilities",
+        "safety",
+        "equipment",
+        "geography",
+        "case outcomes"
+      ],
+      "motion": [
+        "construction sequence",
+        "site progress",
+        "blueprint-to-built",
+        "machine operation",
+        "infrastructure scale"
+      ],
+      "archetypes": [
+        "project-portfolio",
+        "equipment-configurator",
+        "timeline",
+        "lead-generation"
+      ],
+      "engines": [
+        "GSAP",
+        "maps",
+        "Three.js for equipment selectively",
+        "DOM data"
+      ],
+      "media": [
+        "project photography",
+        "BIM/cutaway",
+        "equipment 3D",
+        "timelines"
+      ],
+      "conversion": [
+        "request consultation",
+        "find dealer",
+        "view project",
+        "download spec"
+      ],
+      "avoid": [
+        "unsafe depictions",
+        "overly cinematic pages that hide project data",
+        "unlicensed equipment models"
+      ],
+      "intensity": [
+        3,
+        7
+      ],
+      "risk": "safety-accuracy",
+      "references": [
+        [
+          "Caterpillar",
+          "https://www.caterpillar.com/",
+          "heavy-equipment"
+        ],
+        [
+          "Bechtel",
+          "https://www.bechtel.com/",
+          "engineering-construction"
+        ],
+        [
+          "AECOM",
+          "https://aecom.com/",
+          "infrastructure"
+        ],
+        [
+          "Built Robotics",
+          "https://www.builtrobotics.com/",
+          "construction-robotics"
+        ]
+      ]
+    },
+    {
+      "id": "logistics-supply-chain",
+      "label_pt": "Logística e supply chain",
+      "label_en": "Logistics & Supply Chain",
+      "group": "Mobilidade, indústria e infraestrutura",
+      "keywords": [
+        "logistics",
+        "supply chain",
+        "freight",
+        "shipping",
+        "delivery",
+        "warehouse"
+      ],
+      "subindustries": [
+        "ocean freight",
+        "air freight",
+        "last mile",
+        "freight forwarding",
+        "autonomous delivery"
+      ],
+      "goals": [
+        "make network visibility tangible",
+        "drive quote or shipment",
+        "explain reliability",
+        "show global reach"
+      ],
+      "content": [
+        "services",
+        "network map",
+        "tracking",
+        "quotes",
+        "operational visibility",
+        "industry solutions"
+      ],
+      "motion": [
+        "routes connecting",
+        "cargo progression",
+        "network status",
+        "handoff sequence",
+        "warehouse flow"
+      ],
+      "archetypes": [
+        "map-explorer",
+        "tracking-portal",
+        "quote-flow",
+        "network-storytelling"
+      ],
+      "engines": [
+        "maps",
+        "DOM/SVG",
+        "GSAP for network story",
+        "Motion"
+      ],
+      "media": [
+        "route maps",
+        "fleet imagery",
+        "tracking UI",
+        "warehouse visuals"
+      ],
+      "conversion": [
+        "get quote",
+        "track shipment",
+        "contact expert",
+        "explore network"
+      ],
+      "avoid": [
+        "decorative maps without utility",
+        "invented ETAs",
+        "motion blocking tracking",
+        "too much WebGL on operational flows"
+      ],
+      "intensity": [
+        3,
+        7
+      ],
+      "risk": "operational",
+      "references": [
+        [
+          "Maersk",
+          "https://www.maersk.com/",
+          "global-logistics"
+        ],
+        [
+          "DHL",
+          "https://www.dhl.com/",
+          "delivery-network"
+        ],
+        [
+          "Flexport",
+          "https://www.flexport.com/",
+          "digital-freight"
+        ],
+        [
+          "Zipline",
+          "https://www.flyzipline.com/",
+          "autonomous-delivery"
+        ]
+      ]
+    },
+    {
+      "id": "energy-climate",
+      "label_pt": "Energia e clima",
+      "label_en": "Energy & Climate",
+      "group": "Mobilidade, indústria e infraestrutura",
+      "keywords": [
+        "energy",
+        "climate",
+        "renewable",
+        "carbon removal",
+        "battery",
+        "clean tech"
+      ],
+      "subindustries": [
+        "renewables",
+        "storage",
+        "carbon removal",
+        "grid",
+        "circular materials",
+        "climate software"
+      ],
+      "goals": [
+        "explain complex systems",
+        "prove impact",
+        "attract partners and capital",
+        "support public trust"
+      ],
+      "content": [
+        "technology",
+        "impact methodology",
+        "projects",
+        "scale",
+        "data",
+        "policy or procurement path"
+      ],
+      "motion": [
+        "energy flow",
+        "carbon cycle",
+        "grid balancing",
+        "material loop",
+        "before-after systems"
+      ],
+      "archetypes": [
+        "systems-storytelling",
+        "data-explorer",
+        "project-map",
+        "enterprise-lead-generation"
+      ],
+      "engines": [
+        "SVG/data viz",
+        "GSAP",
+        "maps",
+        "limited WebGL"
+      ],
+      "media": [
+        "system diagrams",
+        "real project imagery",
+        "impact charts",
+        "maps"
+      ],
+      "conversion": [
+        "partner",
+        "buy service",
+        "explore projects",
+        "contact team"
+      ],
+      "avoid": [
+        "greenwashing visuals",
+        "unsupported impact claims",
+        "nature video replacing methodology",
+        "high-energy motion behind dense science"
+      ],
+      "intensity": [
+        4,
+        7
+      ],
+      "risk": "impact-claims",
+      "references": [
+        [
+          "Climeworks",
+          "https://climeworks.com/",
+          "carbon-removal"
+        ],
+        [
+          "Form Energy",
+          "https://formenergy.com/",
+          "energy-storage"
+        ],
+        [
+          "Ørsted",
+          "https://orsted.com/",
+          "renewable-energy"
+        ],
+        [
+          "Redwood Materials",
+          "https://www.redwoodmaterials.com/",
+          "battery-materials"
+        ]
+      ]
+    },
+    {
+      "id": "agriculture-agtech",
+      "label_pt": "Agricultura e agtech",
+      "label_en": "Agriculture & Agtech",
+      "group": "Mobilidade, indústria e infraestrutura",
+      "keywords": [
+        "agriculture",
+        "agtech",
+        "farming",
+        "vertical farm",
+        "crop",
+        "farm equipment"
+      ],
+      "subindustries": [
+        "farm machinery",
+        "crop intelligence",
+        "biologicals",
+        "vertical farming",
+        "supply platforms"
+      ],
+      "goals": [
+        "demonstrate yield or efficiency",
+        "explain technology in field context",
+        "support dealer or grower conversion"
+      ],
+      "content": [
+        "crops and applications",
+        "equipment",
+        "field data",
+        "outcomes",
+        "sustainability",
+        "support"
+      ],
+      "motion": [
+        "field scanning",
+        "growth cycle",
+        "machine path",
+        "water and nutrient flow",
+        "season timeline"
+      ],
+      "archetypes": [
+        "product-explorer",
+        "field-data-demo",
+        "equipment-configurator",
+        "case-study-library"
+      ],
+      "engines": [
+        "maps/data viz",
+        "GSAP",
+        "Three.js for machinery selectively",
+        "Motion"
+      ],
+      "media": [
+        "field imagery",
+        "equipment models",
+        "crop data",
+        "process diagrams"
+      ],
+      "conversion": [
+        "request demo",
+        "find dealer",
+        "talk to agronomist",
+        "view solution"
+      ],
+      "avoid": [
+        "city-tech aesthetic disconnected from growers",
+        "invented yield claims",
+        "heavy animation on low-bandwidth field use"
+      ],
+      "intensity": [
+        3,
+        7
+      ],
+      "risk": "claims-and-context",
+      "references": [
+        [
+          "John Deere",
+          "https://www.deere.com/",
+          "farm-equipment"
+        ],
+        [
+          "Indigo Ag",
+          "https://www.indigoag.com/",
+          "ag-platform"
+        ],
+        [
+          "Plenty",
+          "https://www.plenty.ag/",
+          "vertical-farming"
+        ],
+        [
+          "AeroFarms",
+          "https://www.aerofarms.com/",
+          "indoor-agriculture"
+        ]
+      ]
+    },
+    {
+      "id": "food-restaurants",
+      "label_pt": "Comida e restaurantes",
+      "label_en": "Food & Restaurants",
+      "group": "Consumo e estilo de vida",
+      "keywords": [
+        "food",
+        "restaurant",
+        "chef",
+        "menu",
+        "dining",
+        "cuisine"
+      ],
+      "subindustries": [
+        "fine dining",
+        "fast casual",
+        "cafes",
+        "delivery",
+        "chef brands"
+      ],
+      "goals": [
+        "create appetite and atmosphere",
+        "make menu and booking easy",
+        "tell ingredient or chef story"
+      ],
+      "content": [
+        "menu",
+        "booking",
+        "location and hours",
+        "ingredients",
+        "chef story",
+        "allergens"
+      ],
+      "motion": [
+        "ingredient assembly",
+        "steam and heat",
+        "organic masks",
+        "macro reveals",
+        "service rhythm"
+      ],
+      "archetypes": [
+        "editorial-storytelling",
+        "reservation-flow",
+        "menu-explorer",
+        "location-conversion"
+      ],
+      "engines": [
+        "GSAP for editorial",
+        "Motion",
+        "photo-first DOM",
+        "3D only for packaging or stylized object"
+      ],
+      "media": [
+        "real food photography",
+        "kitchen video",
+        "ingredient stills",
+        "menu in DOM"
+      ],
+      "conversion": [
+        "reserve table",
+        "order",
+        "view menu",
+        "get directions"
+      ],
+      "avoid": [
+        "synthetic-looking AI food",
+        "motion hiding prices",
+        "poor text contrast on food images",
+        "long preloaders before booking"
+      ],
+      "intensity": [
+        3,
+        7
+      ],
+      "risk": "conversion-and-authenticity",
+      "references": [
+        [
+          "Noma",
+          "https://noma.dk/",
+          "fine-dining"
+        ],
+        [
+          "Eleven Madison Park",
+          "https://www.elevenmadisonpark.com/",
+          "fine-dining"
+        ],
+        [
+          "The Fat Duck",
+          "https://thefatduck.co.uk/",
+          "experiential-dining"
+        ],
+        [
+          "Sweetgreen",
+          "https://www.sweetgreen.com/",
+          "fast-casual"
+        ]
+      ]
+    },
+    {
+      "id": "beverage-cpg",
+      "label_pt": "Bebidas e bens de consumo",
+      "label_en": "Beverage & CPG",
+      "group": "Consumo e estilo de vida",
+      "keywords": [
+        "beverage",
+        "drink",
+        "cpg",
+        "packaging",
+        "snack",
+        "consumer brand"
+      ],
+      "subindustries": [
+        "soft drinks",
+        "functional beverages",
+        "coffee",
+        "snacks",
+        "packaged goods"
+      ],
+      "goals": [
+        "build brand memorability",
+        "show product range",
+        "support e-commerce and retail discovery"
+      ],
+      "content": [
+        "products",
+        "flavors",
+        "ingredients",
+        "brand voice",
+        "where to buy",
+        "subscriptions"
+      ],
+      "motion": [
+        "liquid behavior",
+        "packaging rotation",
+        "flavor worlds",
+        "bold type",
+        "playful interactions"
+      ],
+      "archetypes": [
+        "brand-world",
+        "ecommerce-product",
+        "product-launch",
+        "store-locator"
+      ],
+      "engines": [
+        "GSAP",
+        "Motion",
+        "Three.js for packaging",
+        "shader/liquid effect selectively"
+      ],
+      "media": [
+        "pack photography",
+        "3D packaging",
+        "ingredient imagery",
+        "campaign content"
+      ],
+      "conversion": [
+        "shop",
+        "find store",
+        "subscribe",
+        "explore flavors"
+      ],
+      "avoid": [
+        "illegible brand play",
+        "constant cursor gimmicks",
+        "fake liquid physics hurting performance",
+        "missing nutritional info"
+      ],
+      "intensity": [
+        5,
+        9
+      ],
+      "risk": "brand-and-commerce",
+      "references": [
+        [
+          "Oatly",
+          "https://www.oatly.com/",
+          "brand-voice"
+        ],
+        [
+          "Liquid Death",
+          "https://liquiddeath.com/",
+          "bold-cpg"
+        ],
+        [
+          "Athletic Brewing",
+          "https://athleticbrewing.com/",
+          "beverage-commerce"
+        ],
+        [
+          "OLIPOP",
+          "https://drinkolipop.com/",
+          "functional-beverage"
+        ]
+      ]
+    },
+    {
+      "id": "fashion-luxury",
+      "label_pt": "Moda e luxo",
+      "label_en": "Fashion & Luxury",
+      "group": "Consumo e estilo de vida",
+      "keywords": [
+        "fashion",
+        "luxury",
+        "apparel",
+        "jewelry",
+        "watch",
+        "collection"
+      ],
+      "subindustries": [
+        "fashion houses",
+        "jewelry",
+        "watches",
+        "streetwear",
+        "luxury accessories"
+      ],
+      "goals": [
+        "create desire",
+        "present collection",
+        "support product discovery",
+        "express brand world"
+      ],
+      "content": [
+        "collection",
+        "craftsmanship",
+        "materials",
+        "campaign",
+        "product detail",
+        "store and commerce"
+      ],
+      "motion": [
+        "slow editorial reveals",
+        "fabric movement",
+        "mask transitions",
+        "detail zoom",
+        "collection choreography"
+      ],
+      "archetypes": [
+        "editorial-lookbook",
+        "luxury-commerce",
+        "collection-launch",
+        "craft-storytelling"
+      ],
+      "engines": [
+        "GSAP",
+        "Motion",
+        "photo/video-first",
+        "Three.js for product only"
+      ],
+      "media": [
+        "campaign photography",
+        "high-quality video",
+        "product macro",
+        "licensed 3D object"
+      ],
+      "conversion": [
+        "shop collection",
+        "book appointment",
+        "find boutique",
+        "explore craft"
+      ],
+      "avoid": [
+        "SaaS cards",
+        "fast bouncy motion",
+        "effects competing with product",
+        "compressed media"
+      ],
+      "intensity": [
+        4,
+        8
+      ],
+      "risk": "luxury-brand",
+      "references": [
+        [
+          "Loewe",
+          "https://www.loewe.com/",
+          "fashion-house"
+        ],
+        [
+          "Jacquemus",
+          "https://www.jacquemus.com/",
+          "editorial-fashion"
+        ],
+        [
+          "Cartier",
+          "https://www.cartier.com/",
+          "jewelry-luxury"
+        ],
+        [
+          "Moncler",
+          "https://www.moncler.com/",
+          "fashion-commerce"
+        ]
+      ]
+    },
+    {
+      "id": "beauty-wellness",
+      "label_pt": "Beleza e bem-estar",
+      "label_en": "Beauty & Wellness",
+      "group": "Consumo e estilo de vida",
+      "keywords": [
+        "beauty",
+        "skincare",
+        "wellness",
+        "mental health",
+        "cosmetics",
+        "self care"
+      ],
+      "subindustries": [
+        "skincare",
+        "cosmetics",
+        "mental wellness",
+        "spa",
+        "wellness devices"
+      ],
+      "goals": [
+        "communicate ritual and benefits",
+        "build trust",
+        "support product selection",
+        "convert commerce or subscription"
+      ],
+      "content": [
+        "ingredients",
+        "routine",
+        "benefits with evidence",
+        "product finder",
+        "reviews",
+        "usage"
+      ],
+      "motion": [
+        "texture and fluidity",
+        "routine progression",
+        "soft reveals",
+        "before-after with care",
+        "breathing rhythm"
+      ],
+      "archetypes": [
+        "ecommerce-product",
+        "routine-builder",
+        "editorial-storytelling",
+        "subscription"
+      ],
+      "engines": [
+        "Motion",
+        "GSAP lightly",
+        "Rive for guidance",
+        "Three.js for packaging"
+      ],
+      "media": [
+        "real texture and product imagery",
+        "routine UI",
+        "packaging 3D",
+        "illustration"
+      ],
+      "conversion": [
+        "shop routine",
+        "take quiz",
+        "subscribe",
+        "book treatment"
+      ],
+      "avoid": [
+        "medical claims without support",
+        "overly clinical or overly synthetic imagery",
+        "slow commerce path",
+        "inaccessible low contrast"
+      ],
+      "intensity": [
+        3,
+        7
+      ],
+      "risk": "claims-and-trust",
+      "references": [
+        [
+          "Aesop",
+          "https://www.aesop.com/",
+          "premium-skincare"
+        ],
+        [
+          "Glossier",
+          "https://www.glossier.com/",
+          "beauty-commerce"
+        ],
+        [
+          "Rhode",
+          "https://www.rhodeskin.com/",
+          "skincare-brand"
+        ],
+        [
+          "Headspace",
+          "https://www.headspace.com/",
+          "mental-wellness"
+        ]
+      ]
+    },
+    {
+      "id": "consumer-electronics",
+      "label_pt": "Eletrônicos de consumo",
+      "label_en": "Consumer Electronics",
+      "group": "Consumo e estilo de vida",
+      "keywords": [
+        "electronics",
+        "hardware",
+        "device",
+        "headphones",
+        "computer",
+        "appliance"
+      ],
+      "subindustries": [
+        "computing",
+        "audio",
+        "smart home",
+        "appliances",
+        "wearables"
+      ],
+      "goals": [
+        "reveal industrial design",
+        "explain features",
+        "compare models",
+        "drive purchase"
+      ],
+      "content": [
+        "product views",
+        "features",
+        "specifications",
+        "ecosystem",
+        "comparison",
+        "support"
+      ],
+      "motion": [
+        "exploded view",
+        "material transition",
+        "component assembly",
+        "camera orbit",
+        "feature activation"
+      ],
+      "archetypes": [
+        "product-launch",
+        "3d-product-viewer",
+        "spec-comparison",
+        "commerce"
+      ],
+      "engines": [
+        "GSAP",
+        "Three.js/R3F",
+        "Motion for controls",
+        "video selectively"
+      ],
+      "media": [
+        "exact product 3D",
+        "macro photography",
+        "UI demos",
+        "technical diagrams"
+      ],
+      "conversion": [
+        "buy",
+        "compare",
+        "configure",
+        "view specs"
+      ],
+      "avoid": [
+        "generic approximated hardware",
+        "unlicensed models",
+        "animation hiding ports/specs",
+        "huge unoptimized 3D"
+      ],
+      "intensity": [
+        5,
+        9
+      ],
+      "risk": "product-accuracy",
+      "references": [
+        [
+          "Apple",
+          "https://www.apple.com/",
+          "product-storytelling"
+        ],
+        [
+          "Teenage Engineering",
+          "https://teenage.engineering/",
+          "industrial-design"
+        ],
+        [
+          "Nothing",
+          "https://nothing.tech/",
+          "consumer-tech-brand"
+        ],
+        [
+          "Dyson",
+          "https://www.dyson.com/",
+          "engineering-commerce"
+        ]
+      ]
+    },
+    {
+      "id": "home-furniture",
+      "label_pt": "Casa, mobiliário e interiores",
+      "label_en": "Home, Furniture & Interiors",
+      "group": "Consumo e estilo de vida",
+      "keywords": [
+        "furniture",
+        "interior",
+        "home",
+        "lighting",
+        "design objects",
+        "decor"
+      ],
+      "subindustries": [
+        "furniture",
+        "lighting",
+        "homeware",
+        "office furniture",
+        "interior brands"
+      ],
+      "goals": [
+        "show material and scale",
+        "support room imagination",
+        "enable product discovery",
+        "drive retail"
+      ],
+      "content": [
+        "collections",
+        "materials",
+        "dimensions",
+        "room scenes",
+        "designers",
+        "availability"
+      ],
+      "motion": [
+        "room composition",
+        "material close-up",
+        "object rotation",
+        "modular assembly",
+        "quiet editorial transitions"
+      ],
+      "archetypes": [
+        "catalog",
+        "room-configurator",
+        "product-viewer",
+        "editorial-commerce"
+      ],
+      "engines": [
+        "Motion",
+        "GSAP",
+        "Three.js for furniture configurator",
+        "AR where justified"
+      ],
+      "media": [
+        "room photography",
+        "product 3D",
+        "material samples",
+        "dimension diagrams"
+      ],
+      "conversion": [
+        "shop",
+        "configure",
+        "find dealer",
+        "download spec"
+      ],
+      "avoid": [
+        "fast motion",
+        "missing dimensions",
+        "3D without true material fidelity",
+        "tiny product imagery"
+      ],
+      "intensity": [
+        3,
+        7
+      ],
+      "risk": "commerce-product",
+      "references": [
+        [
+          "Vitra",
+          "https://www.vitra.com/",
+          "design-furniture"
+        ],
+        [
+          "Muuto",
+          "https://www.muuto.com/",
+          "scandinavian-design"
+        ],
+        [
+          "HAY",
+          "https://www.hay.com/",
+          "furniture-commerce"
+        ],
+        [
+          "Herman Miller",
+          "https://www.hermanmiller.com/",
+          "office-furniture"
+        ]
+      ]
+    },
+    {
+      "id": "architecture-design",
+      "label_pt": "Arquitetura e design espacial",
+      "label_en": "Architecture & Spatial Design",
+      "group": "Consumo e estilo de vida",
+      "keywords": [
+        "architecture",
+        "architect",
+        "spatial design",
+        "building",
+        "urban design",
+        "interior architecture"
+      ],
+      "subindustries": [
+        "architecture studios",
+        "urbanism",
+        "landscape",
+        "interiors",
+        "spatial design"
+      ],
+      "goals": [
+        "present projects and thinking",
+        "show scale and context",
+        "win commissions",
+        "recruit talent"
+      ],
+      "content": [
+        "projects",
+        "typology",
+        "location",
+        "process",
+        "drawings",
+        "awards and team"
+      ],
+      "motion": [
+        "plan-to-volume",
+        "site context",
+        "section cut",
+        "camera traversal",
+        "project timeline"
+      ],
+      "archetypes": [
+        "project-portfolio",
+        "map-explorer",
+        "spatial-storytelling",
+        "case-study-library"
+      ],
+      "engines": [
+        "GSAP",
+        "maps",
+        "Three.js for models selectively",
+        "DOM editorial"
+      ],
+      "media": [
+        "architecture photography",
+        "plans",
+        "models",
+        "diagrams",
+        "video"
+      ],
+      "conversion": [
+        "view project",
+        "contact studio",
+        "explore practice",
+        "apply"
+      ],
+      "avoid": [
+        "perspective distortion",
+        "3D tour without fallback",
+        "projects hidden behind effects",
+        "oversized media without metadata"
+      ],
+      "intensity": [
+        4,
+        8
+      ],
+      "risk": "portfolio-accuracy",
+      "references": [
+        [
+          "BIG",
+          "https://big.dk/",
+          "architecture-studio"
+        ],
+        [
+          "Snøhetta",
+          "https://www.snohetta.com/",
+          "multidisciplinary"
+        ],
+        [
+          "Foster + Partners",
+          "https://www.fosterandpartners.com/",
+          "global-architecture"
+        ],
+        [
+          "Heatherwick Studio",
+          "https://www.heatherwick.com/",
+          "spatial-design"
+        ]
+      ]
+    },
+    {
+      "id": "pets",
+      "label_pt": "Pets",
+      "label_en": "Pets",
+      "group": "Consumo e estilo de vida",
+      "keywords": [
+        "pets",
+        "dog",
+        "cat",
+        "pet food",
+        "pet accessories",
+        "pet tech"
+      ],
+      "subindustries": [
+        "pet food",
+        "accessories",
+        "insurance",
+        "health",
+        "tracking"
+      ],
+      "goals": [
+        "build warmth and trust",
+        "explain fit or nutrition",
+        "drive subscription or commerce"
+      ],
+      "content": [
+        "product fit",
+        "ingredients",
+        "pet outcomes",
+        "size guidance",
+        "subscription",
+        "reviews"
+      ],
+      "motion": [
+        "playful character motion",
+        "product assembly",
+        "pet journey",
+        "tracking map",
+        "gentle microinteractions"
+      ],
+      "archetypes": [
+        "ecommerce-product",
+        "subscription",
+        "quiz",
+        "pet-profile"
+      ],
+      "engines": [
+        "Motion",
+        "Rive",
+        "light GSAP",
+        "Three.js for product"
+      ],
+      "media": [
+        "real pet photography",
+        "product imagery",
+        "illustration",
+        "tracking UI"
+      ],
+      "conversion": [
+        "shop",
+        "build plan",
+        "subscribe",
+        "check compatibility"
+      ],
+      "avoid": [
+        "overly childish UI for serious health",
+        "anthropomorphic distraction",
+        "missing safety/size guidance"
+      ],
+      "intensity": [
+        4,
+        7
+      ],
+      "risk": "commerce-and-care",
+      "references": [
+        [
+          "Wild One",
+          "https://wildone.com/",
+          "pet-products"
+        ],
+        [
+          "Fable",
+          "https://fablepets.com/",
+          "pet-design"
+        ],
+        [
+          "The Farmer's Dog",
+          "https://www.thefarmersdog.com/",
+          "pet-food"
+        ],
+        [
+          "Tractive",
+          "https://tractive.com/",
+          "pet-tech"
+        ]
+      ]
+    },
+    {
+      "id": "kids-family",
+      "label_pt": "Infantil e família",
+      "label_en": "Kids & Family",
+      "group": "Consumo e estilo de vida",
+      "keywords": [
+        "kids",
+        "children",
+        "family",
+        "toys",
+        "parenting",
+        "learning toys"
+      ],
+      "subindustries": [
+        "toys",
+        "audio players",
+        "parenting products",
+        "learning kits",
+        "family services"
+      ],
+      "goals": [
+        "delight both child and parent",
+        "explain age fit and safety",
+        "drive commerce or subscription"
+      ],
+      "content": [
+        "age ranges",
+        "safety",
+        "how it works",
+        "parent controls",
+        "learning value",
+        "products"
+      ],
+      "motion": [
+        "playful physics",
+        "character states",
+        "story progression",
+        "object discovery",
+        "reward feedback"
+      ],
+      "archetypes": [
+        "product-explorer",
+        "ecommerce",
+        "subscription",
+        "interactive-story"
+      ],
+      "engines": [
+        "Rive",
+        "Motion",
+        "CSS",
+        "light Three.js"
+      ],
+      "media": [
+        "illustration",
+        "real product imagery",
+        "characters",
+        "short demonstrations"
+      ],
+      "conversion": [
+        "shop",
+        "choose age",
+        "subscribe",
+        "explore stories"
+      ],
+      "avoid": [
+        "overstimulation",
+        "sound without consent",
+        "tiny controls",
+        "dark patterns toward children"
+      ],
+      "intensity": [
+        5,
+        8
+      ],
+      "risk": "child-safety",
+      "references": [
+        [
+          "LEGO",
+          "https://www.lego.com/",
+          "toys"
+        ],
+        [
+          "Yoto",
+          "https://us.yotoplay.com/",
+          "kids-audio"
+        ],
+        [
+          "Tonies",
+          "https://us.tonies.com/",
+          "kids-audio"
+        ],
+        [
+          "Lovevery",
+          "https://lovevery.com/",
+          "learning-products"
+        ]
+      ]
+    },
+    {
+      "id": "ecommerce-retail",
+      "label_pt": "E-commerce e varejo",
+      "label_en": "E-commerce & Retail",
+      "group": "Comércio e serviços",
+      "keywords": [
+        "ecommerce",
+        "retail",
+        "shopping",
+        "store",
+        "marketplace",
+        "commerce"
+      ],
+      "subindustries": [
+        "DTC",
+        "marketplaces",
+        "retail chains",
+        "specialty commerce",
+        "subscription commerce"
+      ],
+      "goals": [
+        "help users find and evaluate products",
+        "reduce purchase friction",
+        "increase confidence and basket value"
+      ],
+      "content": [
+        "navigation and search",
+        "product detail",
+        "availability",
+        "delivery and returns",
+        "reviews",
+        "support"
+      ],
+      "motion": [
+        "cart feedback",
+        "product transition",
+        "filter continuity",
+        "image zoom",
+        "layout state changes"
+      ],
+      "archetypes": [
+        "catalog",
+        "product-detail",
+        "marketplace",
+        "checkout"
+      ],
+      "engines": [
+        "DOM/CSS",
+        "Motion",
+        "GSAP only for campaigns",
+        "3D only on hero products"
+      ],
+      "media": [
+        "product photography",
+        "video selectively",
+        "3D for configurables",
+        "UGC/reviews"
+      ],
+      "conversion": [
+        "add to cart",
+        "buy now",
+        "find store",
+        "save wishlist"
+      ],
+      "avoid": [
+        "animation delaying purchase",
+        "hidden shipping/returns",
+        "low-performance product grids",
+        "hover-only actions"
+      ],
+      "intensity": [
+        2,
+        6
+      ],
+      "risk": "transactional",
+      "references": [
+        [
+          "Shopify",
+          "https://www.shopify.com/",
+          "commerce-platform"
+        ],
+        [
+          "IKEA",
+          "https://www.ikea.com/",
+          "large-catalog"
+        ],
+        [
+          "Patagonia",
+          "https://www.patagonia.com/",
+          "brand-commerce"
+        ],
+        [
+          "Warby Parker",
+          "https://www.warbyparker.com/",
+          "guided-commerce"
+        ]
+      ]
+    },
+    {
+      "id": "hospitality-travel",
+      "label_pt": "Hospitalidade e viagens",
+      "label_en": "Hospitality & Travel",
+      "group": "Comércio e serviços",
+      "keywords": [
+        "hotel",
+        "resort",
+        "travel",
+        "hospitality",
+        "vacation",
+        "booking"
+      ],
+      "subindustries": [
+        "hotels",
+        "resorts",
+        "luxury travel",
+        "short-term stays",
+        "tourism"
+      ],
+      "goals": [
+        "create destination desire",
+        "make availability and booking clear",
+        "communicate property character"
+      ],
+      "content": [
+        "rooms",
+        "experiences",
+        "location",
+        "availability",
+        "policies",
+        "amenities"
+      ],
+      "motion": [
+        "arrival journey",
+        "room reveal",
+        "map transition",
+        "slow atmospheric parallax",
+        "day-to-night"
+      ],
+      "archetypes": [
+        "booking-flow",
+        "destination-storytelling",
+        "property-explorer",
+        "map-explorer"
+      ],
+      "engines": [
+        "GSAP editorial",
+        "Motion",
+        "maps",
+        "video/photo-first"
+      ],
+      "media": [
+        "real property photography",
+        "video",
+        "maps",
+        "room panoramas"
+      ],
+      "conversion": [
+        "check availability",
+        "book",
+        "explore rooms",
+        "contact concierge"
+      ],
+      "avoid": [
+        "experience blocking booking",
+        "hidden rates/policies",
+        "autoplay sound",
+        "overcompressed imagery"
+      ],
+      "intensity": [
+        3,
+        7
+      ],
+      "risk": "transactional-luxury",
+      "references": [
+        [
+          "Aman",
+          "https://www.aman.com/",
+          "luxury-hospitality"
+        ],
+        [
+          "Six Senses",
+          "https://www.sixsenses.com/",
+          "resorts"
+        ],
+        [
+          "Belmond",
+          "https://www.belmond.com/",
+          "luxury-travel"
+        ],
+        [
+          "Airbnb",
+          "https://www.airbnb.com/",
+          "travel-marketplace"
+        ]
+      ]
+    },
+    {
+      "id": "real-estate-proptech",
+      "label_pt": "Imobiliário e proptech",
+      "label_en": "Real Estate & Proptech",
+      "group": "Comércio e serviços",
+      "keywords": [
+        "real estate",
+        "property",
+        "proptech",
+        "home search",
+        "3d tour",
+        "development"
+      ],
+      "subindustries": [
+        "brokerage",
+        "property marketplaces",
+        "new developments",
+        "3D capture",
+        "commercial real estate"
+      ],
+      "goals": [
+        "support search and qualification",
+        "present space accurately",
+        "generate viewing or agent leads"
+      ],
+      "content": [
+        "listings",
+        "location",
+        "plans",
+        "availability",
+        "pricing",
+        "agent/contact"
+      ],
+      "motion": [
+        "map-to-property",
+        "plan-to-space",
+        "guided tour",
+        "sun path",
+        "neighborhood reveal"
+      ],
+      "archetypes": [
+        "listing-search",
+        "map-explorer",
+        "property-tour",
+        "development-storytelling"
+      ],
+      "engines": [
+        "maps",
+        "DOM filters",
+        "Three.js/virtual tours",
+        "GSAP selectively"
+      ],
+      "media": [
+        "real photography",
+        "floor plans",
+        "licensed tours",
+        "neighborhood maps"
+      ],
+      "conversion": [
+        "schedule viewing",
+        "contact agent",
+        "save listing",
+        "request brochure"
+      ],
+      "avoid": [
+        "distorted rooms",
+        "AI imagery presented as reality",
+        "tour without fallback",
+        "practical info hidden"
+      ],
+      "intensity": [
+        2,
+        7
+      ],
+      "risk": "representation-accuracy",
+      "references": [
+        [
+          "Compass",
+          "https://www.compass.com/",
+          "brokerage"
+        ],
+        [
+          "Zillow",
+          "https://www.zillow.com/",
+          "property-marketplace"
+        ],
+        [
+          "Matterport",
+          "https://matterport.com/",
+          "spatial-capture"
+        ],
+        [
+          "The Boundary",
+          "https://www.the-boundary.com/",
+          "architectural-visualization"
+        ]
+      ]
+    },
+    {
+      "id": "finance-fintech",
+      "label_pt": "Finanças e fintech",
+      "label_en": "Finance & Fintech",
+      "group": "Comércio e serviços",
+      "keywords": [
+        "finance",
+        "fintech",
+        "banking",
+        "payments",
+        "business finance",
+        "money transfer"
+      ],
+      "subindustries": [
+        "payments",
+        "banking",
+        "expense management",
+        "wealth",
+        "remittance"
+      ],
+      "goals": [
+        "build trust",
+        "explain value and fees",
+        "support onboarding",
+        "drive account creation or sales"
+      ],
+      "content": [
+        "pricing and fees",
+        "security",
+        "product flows",
+        "eligibility",
+        "support",
+        "legal disclosures"
+      ],
+      "motion": [
+        "money flow",
+        "account state",
+        "card controls",
+        "progressive onboarding",
+        "data clarity"
+      ],
+      "archetypes": [
+        "self-serve-onboarding",
+        "product-demo",
+        "pricing",
+        "enterprise-lead-generation"
+      ],
+      "engines": [
+        "DOM-first",
+        "Motion",
+        "SVG diagrams",
+        "restrained GSAP"
+      ],
+      "media": [
+        "real product UI",
+        "clear charts",
+        "cards/devices",
+        "trust evidence"
+      ],
+      "conversion": [
+        "open account",
+        "start transfer",
+        "request demo",
+        "view pricing"
+      ],
+      "avoid": [
+        "gamified risk",
+        "hidden fees",
+        "excessive parallax",
+        "ambiguous financial claims"
+      ],
+      "intensity": [
+        2,
+        5
+      ],
+      "risk": "regulated-high-trust",
+      "references": [
+        [
+          "Stripe",
+          "https://stripe.com/",
+          "payments"
+        ],
+        [
+          "Mercury",
+          "https://mercury.com/",
+          "business-banking"
+        ],
+        [
+          "Ramp",
+          "https://ramp.com/",
+          "expense-management"
+        ],
+        [
+          "Wise",
+          "https://wise.com/",
+          "money-transfer"
+        ]
+      ]
+    },
+    {
+      "id": "insurance",
+      "label_pt": "Seguros",
+      "label_en": "Insurance",
+      "group": "Comércio e serviços",
+      "keywords": [
+        "insurance",
+        "insurtech",
+        "coverage",
+        "policy",
+        "claims",
+        "quote"
+      ],
+      "subindustries": [
+        "home",
+        "auto",
+        "health",
+        "cyber",
+        "life"
+      ],
+      "goals": [
+        "make coverage understandable",
+        "build trust",
+        "enable quote or claims action",
+        "reduce anxiety"
+      ],
+      "content": [
+        "coverage",
+        "exclusions",
+        "quote",
+        "claims",
+        "pricing factors",
+        "support"
+      ],
+      "motion": [
+        "coverage layers",
+        "claim progression",
+        "risk-to-protection",
+        "simple guided steps"
+      ],
+      "archetypes": [
+        "quote-flow",
+        "coverage-explainer",
+        "claims-portal",
+        "account-management"
+      ],
+      "engines": [
+        "DOM/CSS",
+        "Motion",
+        "SVG illustration",
+        "minimal GSAP"
+      ],
+      "media": [
+        "clear illustrations",
+        "real forms",
+        "coverage diagrams",
+        "customer support cues"
+      ],
+      "conversion": [
+        "get quote",
+        "file claim",
+        "compare coverage",
+        "talk to advisor"
+      ],
+      "avoid": [
+        "cute motion trivializing loss",
+        "hidden exclusions",
+        "long cinematic intros",
+        "dark patterns"
+      ],
+      "intensity": [
+        1,
+        4
+      ],
+      "risk": "regulated-high-trust",
+      "references": [
+        [
+          "Lemonade",
+          "https://www.lemonade.com/",
+          "insurtech"
+        ],
+        [
+          "Root",
+          "https://www.joinroot.com/",
+          "auto-insurance"
+        ],
+        [
+          "Kin",
+          "https://www.kin.com/",
+          "home-insurance"
+        ],
+        [
+          "Coalition",
+          "https://www.coalitioninc.com/",
+          "cyber-insurance"
+        ]
+      ]
+    },
+    {
+      "id": "legal-compliance",
+      "label_pt": "Jurídico e compliance",
+      "label_en": "Legal & Compliance",
+      "group": "Comércio e serviços",
+      "keywords": [
+        "legal",
+        "law firm",
+        "compliance",
+        "contract",
+        "legal tech",
+        "governance"
+      ],
+      "subindustries": [
+        "law firms",
+        "legal services",
+        "legal AI",
+        "contract management",
+        "compliance"
+      ],
+      "goals": [
+        "communicate expertise and trust",
+        "support matter or product evaluation",
+        "generate qualified contact"
+      ],
+      "content": [
+        "practice areas",
+        "credentials",
+        "case/process",
+        "security",
+        "disclosures",
+        "contact"
+      ],
+      "motion": [
+        "document transformation",
+        "workflow progression",
+        "controlled editorial reveals",
+        "relationship maps"
+      ],
+      "archetypes": [
+        "professional-services",
+        "product-demo",
+        "knowledge-hub",
+        "lead-generation"
+      ],
+      "engines": [
+        "DOM-first",
+        "Motion",
+        "restrained GSAP",
+        "SVG"
+      ],
+      "media": [
+        "editorial photography",
+        "real product UI",
+        "documents and diagrams",
+        "people"
+      ],
+      "conversion": [
+        "contact attorney",
+        "request demo",
+        "explore practice",
+        "start service"
+      ],
+      "avoid": [
+        "legal advice implied by animation",
+        "overly experimental navigation",
+        "hidden disclaimers",
+        "unverifiable claims"
+      ],
+      "intensity": [
+        1,
+        5
+      ],
+      "risk": "regulated-high-trust",
+      "references": [
+        [
+          "Harvey",
+          "https://www.harvey.ai/",
+          "legal-ai"
+        ],
+        [
+          "LegalZoom",
+          "https://www.legalzoom.com/",
+          "legal-services"
+        ],
+        [
+          "Cooley",
+          "https://www.cooley.com/",
+          "law-firm"
+        ],
+        [
+          "Latham & Watkins",
+          "https://www.lw.com/",
+          "law-firm"
+        ]
+      ]
+    },
+    {
+      "id": "recruitment-hr",
+      "label_pt": "Recrutamento e RH",
+      "label_en": "Recruitment & HR",
+      "group": "Comércio e serviços",
+      "keywords": [
+        "recruiting",
+        "hr",
+        "hiring",
+        "payroll",
+        "remote work",
+        "talent"
+      ],
+      "subindustries": [
+        "ATS",
+        "HRIS",
+        "payroll",
+        "global employment",
+        "talent marketplaces"
+      ],
+      "goals": [
+        "show workflow improvement",
+        "build employer trust",
+        "drive demo or applicant conversion"
+      ],
+      "content": [
+        "product workflows",
+        "compliance",
+        "candidate experience",
+        "analytics",
+        "integrations",
+        "careers"
+      ],
+      "motion": [
+        "candidate pipeline",
+        "workflow automation",
+        "team collaboration",
+        "global map"
+      ],
+      "archetypes": [
+        "product-demo",
+        "enterprise-lead-generation",
+        "job-marketplace",
+        "onboarding"
+      ],
+      "engines": [
+        "Motion",
+        "DOM",
+        "GSAP for product sequence",
+        "maps"
+      ],
+      "media": [
+        "real UI",
+        "workflow diagrams",
+        "people imagery",
+        "analytics"
+      ],
+      "conversion": [
+        "book demo",
+        "start hiring",
+        "apply",
+        "calculate cost"
+      ],
+      "avoid": [
+        "dehumanizing candidate visuals",
+        "fake hiring metrics",
+        "automation spectacle over fairness/accessibility"
+      ],
+      "intensity": [
+        3,
+        6
+      ],
+      "risk": "people-and-compliance",
+      "references": [
+        [
+          "Greenhouse",
+          "https://www.greenhouse.com/",
+          "ats"
+        ],
+        [
+          "Ashby",
+          "https://www.ashbyhq.com/",
+          "recruiting-platform"
+        ],
+        [
+          "Deel",
+          "https://www.deel.com/",
+          "global-employment"
+        ],
+        [
+          "Remote",
+          "https://remote.com/",
+          "global-hr"
+        ]
+      ]
+    },
+    {
+      "id": "healthcare-medtech",
+      "label_pt": "Saúde e medtech",
+      "label_en": "Healthcare & Medtech",
+      "group": "Saúde, educação e cultura",
+      "keywords": [
+        "healthcare",
+        "medical",
+        "clinic",
+        "medtech",
+        "patient",
+        "health platform"
+      ],
+      "subindustries": [
+        "care delivery",
+        "telehealth",
+        "diagnostics",
+        "medical devices",
+        "consumer health"
+      ],
+      "goals": [
+        "build clinical trust",
+        "help users access care",
+        "explain service or device",
+        "support patients"
+      ],
+      "content": [
+        "care scope",
+        "eligibility",
+        "evidence",
+        "providers",
+        "privacy",
+        "urgent guidance"
+      ],
+      "motion": [
+        "care journey",
+        "gentle state feedback",
+        "anatomy explanation",
+        "device operation"
+      ],
+      "archetypes": [
+        "care-access",
+        "service-explainer",
+        "patient-portal",
+        "device-storytelling"
+      ],
+      "engines": [
+        "DOM-first",
+        "Motion restrained",
+        "Rive/SVG for explanation",
+        "3D anatomy only when accurate"
+      ],
+      "media": [
+        "real care imagery",
+        "accessible diagrams",
+        "product UI",
+        "evidence"
+      ],
+      "conversion": [
+        "book care",
+        "check eligibility",
+        "learn about treatment",
+        "contact support"
+      ],
+      "avoid": [
+        "diagnosis by decorative UI",
+        "overpromising outcomes",
+        "fast or distracting motion",
+        "inaccessible forms"
+      ],
+      "intensity": [
+        1,
+        4
+      ],
+      "risk": "medical-high-stakes",
+      "references": [
+        [
+          "Mayo Clinic",
+          "https://www.mayoclinic.org/",
+          "clinical-information"
+        ],
+        [
+          "One Medical",
+          "https://www.onemedical.com/",
+          "care-delivery"
+        ],
+        [
+          "Hims",
+          "https://www.hims.com/",
+          "consumer-health"
+        ],
+        [
+          "Levels",
+          "https://www.levels.com/",
+          "health-platform"
+        ]
+      ]
+    },
+    {
+      "id": "biotech-pharma",
+      "label_pt": "Biotecnologia e farmacêutica",
+      "label_en": "Biotech & Pharma",
+      "group": "Saúde, educação e cultura",
+      "keywords": [
+        "biotech",
+        "pharma",
+        "drug discovery",
+        "therapeutics",
+        "biology",
+        "clinical pipeline"
+      ],
+      "subindustries": [
+        "drug discovery",
+        "therapeutics",
+        "platform biotech",
+        "genomics",
+        "clinical pipelines"
+      ],
+      "goals": [
+        "explain scientific platform",
+        "present pipeline",
+        "attract talent and partners",
+        "build credibility"
+      ],
+      "content": [
+        "platform",
+        "pipeline",
+        "publications",
+        "mechanism",
+        "team",
+        "partnerships"
+      ],
+      "motion": [
+        "molecular scale",
+        "cell-to-system",
+        "pipeline progression",
+        "data-to-discovery"
+      ],
+      "archetypes": [
+        "science-storytelling",
+        "pipeline-explorer",
+        "research-hub",
+        "partner-lead-generation"
+      ],
+      "engines": [
+        "SVG/data viz",
+        "GSAP restrained",
+        "Three.js molecular only if accurate",
+        "DOM"
+      ],
+      "media": [
+        "scientific diagrams",
+        "real lab imagery",
+        "pipeline UI",
+        "publications"
+      ],
+      "conversion": [
+        "explore pipeline",
+        "partner",
+        "join team",
+        "read science"
+      ],
+      "avoid": [
+        "decorative DNA clichés",
+        "unvalidated medical claims",
+        "misleading molecular animations",
+        "illegible science text"
+      ],
+      "intensity": [
+        3,
+        6
+      ],
+      "risk": "scientific-high-stakes",
+      "references": [
+        [
+          "Moderna",
+          "https://www.modernatx.com/",
+          "biopharma"
+        ],
+        [
+          "Ginkgo Bioworks",
+          "https://www.ginkgobioworks.com/",
+          "platform-biotech"
+        ],
+        [
+          "Recursion",
+          "https://www.recursion.com/",
+          "techbio"
+        ],
+        [
+          "insitro",
+          "https://www.insitro.com/",
+          "ml-drug-discovery"
+        ]
+      ]
+    },
+    {
+      "id": "education-edtech",
+      "label_pt": "Educação e edtech",
+      "label_en": "Education & Edtech",
+      "group": "Saúde, educação e cultura",
+      "keywords": [
+        "education",
+        "edtech",
+        "learning",
+        "course",
+        "school",
+        "training"
+      ],
+      "subindustries": [
+        "consumer learning",
+        "schools",
+        "professional learning",
+        "tutoring",
+        "course platforms"
+      ],
+      "goals": [
+        "make learning approachable",
+        "show progression",
+        "drive enrollment or practice",
+        "support retention"
+      ],
+      "content": [
+        "curriculum",
+        "outcomes",
+        "sample lesson",
+        "pricing",
+        "progress",
+        "accessibility"
+      ],
+      "motion": [
+        "concept progression",
+        "reward feedback",
+        "skill tree",
+        "interactive explanation",
+        "lesson transition"
+      ],
+      "archetypes": [
+        "course-catalog",
+        "interactive-learning",
+        "subscription",
+        "progress-dashboard"
+      ],
+      "engines": [
+        "Motion",
+        "Rive",
+        "DOM/SVG",
+        "GSAP for concept demos"
+      ],
+      "media": [
+        "interactive exercises",
+        "illustration",
+        "real lessons",
+        "progress UI"
+      ],
+      "conversion": [
+        "start lesson",
+        "enroll",
+        "try free",
+        "view curriculum"
+      ],
+      "avoid": [
+        "gamification replacing learning",
+        "motion without pedagogy",
+        "inaccessible timed interactions",
+        "fake outcomes"
+      ],
+      "intensity": [
+        4,
+        7
+      ],
+      "risk": "learning-accessibility",
+      "references": [
+        [
+          "Duolingo",
+          "https://www.duolingo.com/",
+          "consumer-learning"
+        ],
+        [
+          "Khan Academy",
+          "https://www.khanacademy.org/",
+          "learning-platform"
+        ],
+        [
+          "Brilliant",
+          "https://brilliant.org/",
+          "interactive-learning"
+        ],
+        [
+          "MasterClass",
+          "https://www.masterclass.com/",
+          "course-subscription"
+        ]
+      ]
+    },
+    {
+      "id": "sports-fitness",
+      "label_pt": "Esportes e fitness",
+      "label_en": "Sports & Fitness",
+      "group": "Saúde, educação e cultura",
+      "keywords": [
+        "sports",
+        "fitness",
+        "running",
+        "training",
+        "athlete",
+        "wearable"
+      ],
+      "subindustries": [
+        "sportswear",
+        "training apps",
+        "fitness hardware",
+        "clubs",
+        "performance analytics"
+      ],
+      "goals": [
+        "create energy and identity",
+        "show performance value",
+        "drive membership or commerce"
+      ],
+      "content": [
+        "product or program",
+        "athlete stories",
+        "metrics",
+        "training",
+        "community",
+        "plans"
+      ],
+      "motion": [
+        "pace and cadence",
+        "performance data",
+        "route progression",
+        "body motion",
+        "competition rhythm"
+      ],
+      "archetypes": [
+        "product-launch",
+        "training-platform",
+        "community",
+        "ecommerce"
+      ],
+      "engines": [
+        "GSAP",
+        "Motion",
+        "data viz",
+        "maps",
+        "video selectively"
+      ],
+      "media": [
+        "athlete photography/video",
+        "performance UI",
+        "routes",
+        "product detail"
+      ],
+      "conversion": [
+        "join",
+        "start training",
+        "shop",
+        "track activity"
+      ],
+      "avoid": [
+        "motion-induced nausea",
+        "unsafe training claims",
+        "video masking product info",
+        "ignoring reduced motion"
+      ],
+      "intensity": [
+        5,
+        8
+      ],
+      "risk": "health-and-performance",
+      "references": [
+        [
+          "Nike",
+          "https://www.nike.com/",
+          "sports-brand"
+        ],
+        [
+          "Strava",
+          "https://www.strava.com/",
+          "fitness-community"
+        ],
+        [
+          "WHOOP",
+          "https://www.whoop.com/",
+          "performance-wearable"
+        ],
+        [
+          "On",
+          "https://www.on.com/",
+          "running-brand"
+        ]
+      ]
+    },
+    {
+      "id": "entertainment-streaming",
+      "label_pt": "Entretenimento e streaming",
+      "label_en": "Entertainment & Streaming",
+      "group": "Saúde, educação e cultura",
+      "keywords": [
+        "entertainment",
+        "streaming",
+        "film",
+        "tv",
+        "cinema",
+        "content platform"
+      ],
+      "subindustries": [
+        "streaming services",
+        "film studios",
+        "cinema brands",
+        "curated media",
+        "franchises"
+      ],
+      "goals": [
+        "drive discovery and viewing",
+        "build anticipation",
+        "present catalog or title world"
+      ],
+      "content": [
+        "titles",
+        "trailers",
+        "availability",
+        "talent",
+        "editorial context",
+        "subscription"
+      ],
+      "motion": [
+        "title transitions",
+        "poster depth",
+        "cinematic reveal",
+        "timeline",
+        "genre worlds"
+      ],
+      "archetypes": [
+        "content-catalog",
+        "title-campaign",
+        "subscription",
+        "editorial-discovery"
+      ],
+      "engines": [
+        "Motion",
+        "GSAP for campaigns",
+        "video",
+        "WebGL for one title world"
+      ],
+      "media": [
+        "official trailers",
+        "posters",
+        "stills",
+        "title assets"
+      ],
+      "conversion": [
+        "watch",
+        "subscribe",
+        "view trailer",
+        "browse catalog"
+      ],
+      "avoid": [
+        "autoplay audio",
+        "heavy effects on catalog browsing",
+        "spoilers",
+        "unlicensed media"
+      ],
+      "intensity": [
+        4,
+        9
+      ],
+      "risk": "media-rights",
+      "references": [
+        [
+          "Netflix",
+          "https://www.netflix.com/",
+          "streaming"
+        ],
+        [
+          "Disney+",
+          "https://www.disneyplus.com/",
+          "streaming"
+        ],
+        [
+          "A24",
+          "https://a24films.com/",
+          "film-studio"
+        ],
+        [
+          "MUBI",
+          "https://mubi.com/",
+          "curated-cinema"
+        ]
+      ]
+    },
+    {
+      "id": "gaming-esports",
+      "label_pt": "Games e esports",
+      "label_en": "Gaming & Esports",
+      "group": "Saúde, educação e cultura",
+      "keywords": [
+        "gaming",
+        "esports",
+        "game studio",
+        "console",
+        "video games",
+        "launcher"
+      ],
+      "subindustries": [
+        "platforms",
+        "publishers",
+        "studios",
+        "esports",
+        "game campaigns"
+      ],
+      "goals": [
+        "build excitement",
+        "show game world",
+        "drive purchase/download",
+        "support community"
+      ],
+      "content": [
+        "games",
+        "trailers",
+        "platforms",
+        "events",
+        "community",
+        "system requirements"
+      ],
+      "motion": [
+        "world transitions",
+        "character reveals",
+        "HUD states",
+        "combat rhythm",
+        "interactive lore"
+      ],
+      "archetypes": [
+        "game-launch",
+        "catalog",
+        "community-hub",
+        "esports-event"
+      ],
+      "engines": [
+        "GSAP",
+        "video",
+        "WebGL selectively",
+        "Motion"
+      ],
+      "media": [
+        "official game assets",
+        "trailers",
+        "characters",
+        "screenshots"
+      ],
+      "conversion": [
+        "play",
+        "buy",
+        "wishlist",
+        "watch event"
+      ],
+      "avoid": [
+        "fake gameplay",
+        "motion overwhelming navigation",
+        "autoplay sound",
+        "ignoring lower-end devices"
+      ],
+      "intensity": [
+        6,
+        10
+      ],
+      "risk": "performance-and-rights",
+      "references": [
+        [
+          "PlayStation",
+          "https://www.playstation.com/",
+          "gaming-platform"
+        ],
+        [
+          "Xbox",
+          "https://www.xbox.com/",
+          "gaming-platform"
+        ],
+        [
+          "Riot Games",
+          "https://www.riotgames.com/",
+          "publisher"
+        ],
+        [
+          "Epic Games",
+          "https://www.epicgames.com/",
+          "publisher-platform"
+        ]
+      ]
+    },
+    {
+      "id": "music-events",
+      "label_pt": "Música e eventos",
+      "label_en": "Music & Events",
+      "group": "Saúde, educação e cultura",
+      "keywords": [
+        "music",
+        "concert",
+        "festival",
+        "audio",
+        "events",
+        "tickets"
+      ],
+      "subindustries": [
+        "streaming",
+        "audio hardware",
+        "festivals",
+        "venues",
+        "artist campaigns"
+      ],
+      "goals": [
+        "drive listening or attendance",
+        "express identity",
+        "support discovery and ticketing"
+      ],
+      "content": [
+        "artists",
+        "schedule",
+        "venues",
+        "tickets",
+        "playback",
+        "lineup"
+      ],
+      "motion": [
+        "audio-reactive visuals",
+        "timeline",
+        "set progression",
+        "kinetic type",
+        "stage light"
+      ],
+      "archetypes": [
+        "festival-site",
+        "artist-campaign",
+        "audio-product",
+        "streaming-discovery"
+      ],
+      "engines": [
+        "GSAP",
+        "Web Audio selectively",
+        "Motion",
+        "video"
+      ],
+      "media": [
+        "official music/artwork",
+        "lineup data",
+        "audio previews",
+        "event imagery"
+      ],
+      "conversion": [
+        "listen",
+        "buy ticket",
+        "view schedule",
+        "subscribe"
+      ],
+      "avoid": [
+        "sound without consent",
+        "visualizer blocking ticketing",
+        "unlicensed audio",
+        "poor schedule accessibility"
+      ],
+      "intensity": [
+        5,
+        10
+      ],
+      "risk": "media-rights-and-access",
+      "references": [
+        [
+          "Spotify",
+          "https://www.spotify.com/",
+          "music-streaming"
+        ],
+        [
+          "Sonos",
+          "https://www.sonos.com/",
+          "audio-hardware"
+        ],
+        [
+          "Boiler Room",
+          "https://boilerroom.tv/",
+          "music-events"
+        ],
+        [
+          "Coachella",
+          "https://www.coachella.com/",
+          "festival"
+        ]
+      ]
+    },
+    {
+      "id": "media-publishing",
+      "label_pt": "Mídia e publicação",
+      "label_en": "Media & Publishing",
+      "group": "Saúde, educação e cultura",
+      "keywords": [
+        "media",
+        "publishing",
+        "news",
+        "magazine",
+        "journalism",
+        "editorial"
+      ],
+      "subindustries": [
+        "news",
+        "magazines",
+        "data journalism",
+        "business media",
+        "independent publishing"
+      ],
+      "goals": [
+        "support reading and discovery",
+        "build subscription value",
+        "explain complex stories"
+      ],
+      "content": [
+        "headlines",
+        "sections",
+        "story context",
+        "authors",
+        "subscription",
+        "live updates"
+      ],
+      "motion": [
+        "scroll-driven explanation",
+        "data transitions",
+        "editorial rhythm",
+        "chapter progression"
+      ],
+      "archetypes": [
+        "content-platform",
+        "interactive-feature",
+        "subscription",
+        "data-story"
+      ],
+      "engines": [
+        "DOM-first",
+        "data viz",
+        "GSAP for special features",
+        "Motion"
+      ],
+      "media": [
+        "editorial photography",
+        "charts",
+        "maps",
+        "illustration"
+      ],
+      "conversion": [
+        "read",
+        "subscribe",
+        "save",
+        "explore topic"
+      ],
+      "avoid": [
+        "motion in routine reading",
+        "layout shift from ads/media",
+        "paywall confusion",
+        "accessibility loss in interactives"
+      ],
+      "intensity": [
+        2,
+        7
+      ],
+      "risk": "content-access",
+      "references": [
+        [
+          "The New York Times",
+          "https://www.nytimes.com/",
+          "news"
+        ],
+        [
+          "Bloomberg",
+          "https://www.bloomberg.com/",
+          "business-media"
+        ],
+        [
+          "Monocle",
+          "https://monocle.com/",
+          "magazine"
+        ],
+        [
+          "The Pudding",
+          "https://pudding.cool/",
+          "visual-essays"
+        ]
+      ]
+    },
+    {
+      "id": "museums-culture",
+      "label_pt": "Museus e cultura",
+      "label_en": "Museums & Culture",
+      "group": "Saúde, educação e cultura",
+      "keywords": [
+        "museum",
+        "culture",
+        "art institution",
+        "exhibition",
+        "archive",
+        "gallery"
+      ],
+      "subindustries": [
+        "museums",
+        "galleries",
+        "archives",
+        "cultural institutions",
+        "exhibitions"
+      ],
+      "goals": [
+        "enable collection discovery",
+        "support visits",
+        "interpret exhibitions",
+        "expand access"
+      ],
+      "content": [
+        "collection",
+        "exhibitions",
+        "tickets",
+        "accessibility",
+        "stories",
+        "education"
+      ],
+      "motion": [
+        "gallery traversal",
+        "artifact reveal",
+        "timeline",
+        "collection constellation",
+        "curatorial sequence"
+      ],
+      "archetypes": [
+        "collection-explorer",
+        "exhibition-story",
+        "visit-planner",
+        "archive"
+      ],
+      "engines": [
+        "DOM-first",
+        "GSAP for exhibitions",
+        "WebGL for digitized artifacts",
+        "maps"
+      ],
+      "media": [
+        "digitized art",
+        "object scans",
+        "curatorial text",
+        "audio/video"
+      ],
+      "conversion": [
+        "plan visit",
+        "buy ticket",
+        "explore collection",
+        "support institution"
+      ],
+      "avoid": [
+        "effects competing with artworks",
+        "missing captions/provenance",
+        "inaccessible canvas-only collections",
+        "slow ticket path"
+      ],
+      "intensity": [
+        3,
+        8
+      ],
+      "risk": "cultural-access-and-rights",
+      "references": [
+        [
+          "MoMA",
+          "https://www.moma.org/",
+          "modern-art"
+        ],
+        [
+          "The Met",
+          "https://www.metmuseum.org/",
+          "museum"
+        ],
+        [
+          "Tate",
+          "https://www.tate.org.uk/",
+          "art-institution"
+        ],
+        [
+          "Louvre",
+          "https://www.louvre.fr/en",
+          "museum"
+        ]
+      ]
+    },
+    {
+      "id": "nonprofit-social-impact",
+      "label_pt": "ONGs e impacto social",
+      "label_en": "Nonprofit & Social Impact",
+      "group": "Setor público, ciência e ecossistemas",
+      "keywords": [
+        "nonprofit",
+        "charity",
+        "social impact",
+        "environmental organization",
+        "foundation",
+        "cause"
+      ],
+      "subindustries": [
+        "charities",
+        "environmental NGOs",
+        "foundations",
+        "advocacy",
+        "humanitarian"
+      ],
+      "goals": [
+        "make impact tangible",
+        "build trust",
+        "drive donation or action",
+        "educate"
+      ],
+      "content": [
+        "problem and intervention",
+        "impact evidence",
+        "financial transparency",
+        "stories",
+        "ways to act"
+      ],
+      "motion": [
+        "impact chain",
+        "before-after",
+        "map of work",
+        "progress over time",
+        "story transitions"
+      ],
+      "archetypes": [
+        "impact-storytelling",
+        "donation-flow",
+        "campaign",
+        "data-explorer"
+      ],
+      "engines": [
+        "DOM/SVG",
+        "GSAP selectively",
+        "maps",
+        "Motion"
+      ],
+      "media": [
+        "real field imagery",
+        "impact data",
+        "maps",
+        "stories"
+      ],
+      "conversion": [
+        "donate",
+        "volunteer",
+        "take action",
+        "learn"
+      ],
+      "avoid": [
+        "poverty porn",
+        "emotion without evidence",
+        "slow donation flow",
+        "unsubstantiated impact"
+      ],
+      "intensity": [
+        3,
+        7
+      ],
+      "risk": "ethics-and-trust",
+      "references": [
+        [
+          "charity: water",
+          "https://www.charitywater.org/",
+          "charity"
+        ],
+        [
+          "WWF",
+          "https://www.worldwildlife.org/",
+          "conservation"
+        ],
+        [
+          "The Ocean Cleanup",
+          "https://theoceancleanup.com/",
+          "environmental-technology"
+        ],
+        [
+          "Mozilla Foundation",
+          "https://foundation.mozilla.org/",
+          "digital-rights"
+        ]
+      ]
+    },
+    {
+      "id": "government-public-services",
+      "label_pt": "Governo e serviços públicos",
+      "label_en": "Government & Public Services",
+      "group": "Setor público, ciência e ecossistemas",
+      "keywords": [
+        "government",
+        "public service",
+        "civic",
+        "public sector",
+        "citizen service",
+        "service design"
+      ],
+      "subindustries": [
+        "government portals",
+        "health services",
+        "benefits",
+        "permits",
+        "public information"
+      ],
+      "goals": [
+        "help people complete tasks",
+        "make information trustworthy",
+        "support broad accessibility and devices"
+      ],
+      "content": [
+        "task paths",
+        "eligibility",
+        "forms",
+        "status",
+        "contact and escalation",
+        "language support"
+      ],
+      "motion": [
+        "only functional feedback",
+        "step progression",
+        "status change",
+        "map or data explanation"
+      ],
+      "archetypes": [
+        "service-portal",
+        "form-flow",
+        "information-hub",
+        "status-dashboard"
+      ],
+      "engines": [
+        "HTML/CSS/DOM",
+        "minimal Motion",
+        "data viz when needed"
+      ],
+      "media": [
+        "icons",
+        "diagrams",
+        "maps",
+        "official data"
+      ],
+      "conversion": [
+        "complete service",
+        "find information",
+        "submit form",
+        "get help"
+      ],
+      "avoid": [
+        "experimental navigation",
+        "long transitions",
+        "canvas-only UI",
+        "low contrast",
+        "motion as decoration"
+      ],
+      "intensity": [
+        0,
+        3
+      ],
+      "risk": "critical-accessibility",
+      "references": [
+        [
+          "GOV.UK",
+          "https://www.gov.uk/",
+          "government-services"
+        ],
+        [
+          "U.S. Web Design System",
+          "https://designsystem.digital.gov/",
+          "public-design-system"
+        ],
+        [
+          "NHS",
+          "https://www.nhs.uk/",
+          "public-health-service"
+        ],
+        [
+          "Gov.sg",
+          "https://www.gov.sg/",
+          "government-information"
+        ]
+      ]
+    },
+    {
+      "id": "science-research",
+      "label_pt": "Ciência e pesquisa",
+      "label_en": "Science & Research",
+      "group": "Setor público, ciência e ecossistemas",
+      "keywords": [
+        "science",
+        "research",
+        "laboratory",
+        "institute",
+        "physics",
+        "research organization"
+      ],
+      "subindustries": [
+        "research institutes",
+        "physics",
+        "neuroscience",
+        "life science",
+        "academic labs"
+      ],
+      "goals": [
+        "communicate research clearly",
+        "support discovery and recruitment",
+        "present publications and facilities"
+      ],
+      "content": [
+        "research areas",
+        "publications",
+        "data",
+        "facilities",
+        "people",
+        "opportunities"
+      ],
+      "motion": [
+        "scale transitions",
+        "experiment flow",
+        "data relationship",
+        "instrument operation",
+        "timeline"
+      ],
+      "archetypes": [
+        "research-hub",
+        "data-explorer",
+        "facility-story",
+        "publication-platform"
+      ],
+      "engines": [
+        "data viz",
+        "DOM",
+        "GSAP for explainers",
+        "WebGL for scientifically valid visualization"
+      ],
+      "media": [
+        "scientific imagery",
+        "data",
+        "instrument models",
+        "publications"
+      ],
+      "conversion": [
+        "read research",
+        "explore data",
+        "collaborate",
+        "apply"
+      ],
+      "avoid": [
+        "misleading scientific animation",
+        "aestheticizing uncertainty away",
+        "canvas text",
+        "unlabeled data"
+      ],
+      "intensity": [
+        3,
+        7
+      ],
+      "risk": "scientific-accuracy",
+      "references": [
+        [
+          "CERN",
+          "https://home.cern/",
+          "physics-research"
+        ],
+        [
+          "MIT Media Lab",
+          "https://www.media.mit.edu/",
+          "research-lab"
+        ],
+        [
+          "Allen Institute",
+          "https://alleninstitute.org/",
+          "bioscience-research"
+        ],
+        [
+          "HHMI",
+          "https://www.hhmi.org/",
+          "biomedical-research"
+        ]
+      ]
+    },
+    {
+      "id": "telecom-connectivity",
+      "label_pt": "Telecom e conectividade",
+      "label_en": "Telecom & Connectivity",
+      "group": "Setor público, ciência e ecossistemas",
+      "keywords": [
+        "telecom",
+        "connectivity",
+        "network",
+        "broadband",
+        "satellite internet",
+        "5g"
+      ],
+      "subindustries": [
+        "mobile carriers",
+        "network equipment",
+        "satellite internet",
+        "enterprise networking",
+        "broadband"
+      ],
+      "goals": [
+        "show coverage and reliability",
+        "support plan selection",
+        "explain network technology",
+        "drive signup"
+      ],
+      "content": [
+        "coverage",
+        "plans",
+        "devices",
+        "network performance",
+        "support",
+        "enterprise solutions"
+      ],
+      "motion": [
+        "coverage expansion",
+        "signal path",
+        "network topology",
+        "device handoff",
+        "orbit-to-ground"
+      ],
+      "archetypes": [
+        "coverage-map",
+        "plan-comparison",
+        "technology-story",
+        "service-signup"
+      ],
+      "engines": [
+        "maps",
+        "DOM",
+        "SVG",
+        "GSAP selectively"
+      ],
+      "media": [
+        "coverage data",
+        "network diagrams",
+        "device imagery",
+        "infrastructure"
+      ],
+      "conversion": [
+        "check availability",
+        "choose plan",
+        "contact sales",
+        "view coverage"
+      ],
+      "avoid": [
+        "misleading coverage visuals",
+        "heavy animation in support flows",
+        "unreadable plan details",
+        "fake speed claims"
+      ],
+      "intensity": [
+        2,
+        6
+      ],
+      "risk": "claims-and-availability",
+      "references": [
+        [
+          "Starlink",
+          "https://www.starlink.com/",
+          "satellite-internet"
+        ],
+        [
+          "Verizon",
+          "https://www.verizon.com/",
+          "carrier"
+        ],
+        [
+          "T-Mobile",
+          "https://www.t-mobile.com/",
+          "carrier"
+        ],
+        [
+          "Nokia",
+          "https://www.nokia.com/",
+          "network-technology"
+        ]
+      ]
+    },
+    {
+      "id": "web3-digital-assets",
+      "label_pt": "Web3 e ativos digitais",
+      "label_en": "Web3 & Digital Assets",
+      "group": "Setor público, ciência e ecossistemas",
+      "keywords": [
+        "web3",
+        "crypto",
+        "blockchain",
+        "wallet",
+        "defi",
+        "digital assets"
+      ],
+      "subindustries": [
+        "exchanges",
+        "wallets",
+        "protocols",
+        "developer infrastructure",
+        "DeFi"
+      ],
+      "goals": [
+        "build trust and clarity",
+        "explain protocol or custody",
+        "drive onboarding or developer adoption"
+      ],
+      "content": [
+        "risk and security",
+        "how it works",
+        "fees",
+        "network status",
+        "governance",
+        "docs"
+      ],
+      "motion": [
+        "transaction flow",
+        "block confirmation",
+        "network graph",
+        "wallet state",
+        "liquidity movement"
+      ],
+      "archetypes": [
+        "protocol-explainer",
+        "wallet-onboarding",
+        "developer-docs",
+        "trading-product"
+      ],
+      "engines": [
+        "DOM/SVG",
+        "Motion",
+        "GSAP sparingly",
+        "WebGL only for meaningful network view"
+      ],
+      "media": [
+        "real product UI",
+        "protocol diagrams",
+        "network data",
+        "security evidence"
+      ],
+      "conversion": [
+        "create account",
+        "connect wallet",
+        "read docs",
+        "explore protocol"
+      ],
+      "avoid": [
+        "casino visual language",
+        "hidden risk",
+        "unbounded wallet prompts",
+        "decorative token explosions",
+        "claims of guaranteed returns"
+      ],
+      "intensity": [
+        3,
+        7
+      ],
+      "risk": "financial-high-risk",
+      "references": [
+        [
+          "Coinbase",
+          "https://www.coinbase.com/",
+          "exchange"
+        ],
+        [
+          "Ledger",
+          "https://www.ledger.com/",
+          "hardware-wallet"
+        ],
+        [
+          "Ethereum",
+          "https://ethereum.org/",
+          "protocol-ecosystem"
+        ],
+        [
+          "Uniswap",
+          "https://uniswap.org/",
+          "defi-protocol"
+        ]
+      ]
+    }
+  ]
+}

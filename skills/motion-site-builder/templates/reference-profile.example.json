@@ -1,0 +1,39 @@
+{
+  "id": "fiddle-digital",
+  "url": "https://fiddle.digital/",
+  "capturedAt": "YYYY-MM-DD",
+  "categories": [
+    "creative-agency",
+    "editorial",
+    "kinetic-typography"
+  ],
+  "visualTraits": [
+    "oversized-type",
+    "asymmetric-layout",
+    "high-whitespace"
+  ],
+  "motionTraits": [
+    "text-splitting",
+    "scroll-linked-type",
+    "sticky-sequences"
+  ],
+  "observedTechnologies": [],
+  "likelyPatterns": [
+    "choreographed timeline",
+    "sticky CSS",
+    "text splitting"
+  ],
+  "complexity": "advanced",
+  "performanceRisk": "medium",
+  "accessibilityRisk": "medium",
+  "goodFor": [
+    "agency",
+    "portfolio",
+    "technology-brand"
+  ],
+  "avoid": [
+    "copying layout",
+    "long forced loader",
+    "body-copy over-animation"
+  ]
+}

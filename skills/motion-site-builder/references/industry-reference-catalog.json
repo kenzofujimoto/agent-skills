@@ -1,0 +1,1662 @@
+{
+  "version": "1.3.0",
+  "count": 184,
+  "references": [
+    {
+      "industryId": "ai-saas",
+      "industry": "AI & SaaS",
+      "name": "OpenAI",
+      "url": "https://openai.com/",
+      "benchmarkType": "market-product",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "ai-saas",
+      "industry": "AI & SaaS",
+      "name": "Anthropic",
+      "url": "https://www.anthropic.com/",
+      "benchmarkType": "market-product",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "ai-saas",
+      "industry": "AI & SaaS",
+      "name": "Linear",
+      "url": "https://linear.app/",
+      "benchmarkType": "product-motion",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "ai-saas",
+      "industry": "AI & SaaS",
+      "name": "Vercel",
+      "url": "https://vercel.com/",
+      "benchmarkType": "developer-brand",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "developer-tools-cloud",
+      "industry": "Developer Tools & Cloud",
+      "name": "GitHub",
+      "url": "https://github.com/",
+      "benchmarkType": "platform",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "developer-tools-cloud",
+      "industry": "Developer Tools & Cloud",
+      "name": "Supabase",
+      "url": "https://supabase.com/",
+      "benchmarkType": "developer-brand",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "developer-tools-cloud",
+      "industry": "Developer Tools & Cloud",
+      "name": "Cloudflare",
+      "url": "https://www.cloudflare.com/",
+      "benchmarkType": "infrastructure",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "developer-tools-cloud",
+      "industry": "Developer Tools & Cloud",
+      "name": "Sentry",
+      "url": "https://sentry.io/",
+      "benchmarkType": "observability",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "cybersecurity",
+      "industry": "Cybersecurity",
+      "name": "CrowdStrike",
+      "url": "https://www.crowdstrike.com/",
+      "benchmarkType": "enterprise",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "cybersecurity",
+      "industry": "Cybersecurity",
+      "name": "Wiz",
+      "url": "https://www.wiz.io/",
+      "benchmarkType": "cloud-security",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "cybersecurity",
+      "industry": "Cybersecurity",
+      "name": "1Password",
+      "url": "https://1password.com/",
+      "benchmarkType": "identity",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "cybersecurity",
+      "industry": "Cybersecurity",
+      "name": "Tines",
+      "url": "https://www.tines.com/",
+      "benchmarkType": "security-automation",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "productivity-collaboration",
+      "industry": "Productivity & Collaboration",
+      "name": "Notion",
+      "url": "https://www.notion.so/product",
+      "benchmarkType": "workspace",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "productivity-collaboration",
+      "industry": "Productivity & Collaboration",
+      "name": "Figma",
+      "url": "https://www.figma.com/",
+      "benchmarkType": "design-collaboration",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "productivity-collaboration",
+      "industry": "Productivity & Collaboration",
+      "name": "Slack",
+      "url": "https://slack.com/",
+      "benchmarkType": "communications",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "productivity-collaboration",
+      "industry": "Productivity & Collaboration",
+      "name": "Airtable",
+      "url": "https://www.airtable.com/",
+      "benchmarkType": "database-workflows",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "professional-services-agencies",
+      "industry": "Professional Services & Agencies",
+      "name": "IDEO",
+      "url": "https://www.ideo.com/",
+      "benchmarkType": "innovation",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "professional-services-agencies",
+      "industry": "Professional Services & Agencies",
+      "name": "Pentagram",
+      "url": "https://www.pentagram.com/",
+      "benchmarkType": "design-studio",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "professional-services-agencies",
+      "industry": "Professional Services & Agencies",
+      "name": "frog",
+      "url": "https://www.frog.co/",
+      "benchmarkType": "consulting-design",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "professional-services-agencies",
+      "industry": "Professional Services & Agencies",
+      "name": "Refokus",
+      "url": "https://www.refokus.com/",
+      "benchmarkType": "creative-development",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "automotive",
+      "industry": "Automotive",
+      "name": "Porsche",
+      "url": "https://www.porsche.com/",
+      "benchmarkType": "luxury-performance",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "automotive",
+      "industry": "Automotive",
+      "name": "Polestar",
+      "url": "https://www.polestar.com/",
+      "benchmarkType": "electric-minimal",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "automotive",
+      "industry": "Automotive",
+      "name": "Lucid Motors",
+      "url": "https://lucidmotors.com/",
+      "benchmarkType": "electric-luxury",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "automotive",
+      "industry": "Automotive",
+      "name": "Lotus Cars",
+      "url": "https://www.lotuscars.com/",
+      "benchmarkType": "performance",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "mobility-ev-autonomy",
+      "industry": "Mobility, EV & Autonomy",
+      "name": "Rivian",
+      "url": "https://rivian.com/",
+      "benchmarkType": "electric-vehicle",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "mobility-ev-autonomy",
+      "industry": "Mobility, EV & Autonomy",
+      "name": "Waymo",
+      "url": "https://waymo.com/",
+      "benchmarkType": "autonomy",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "mobility-ev-autonomy",
+      "industry": "Mobility, EV & Autonomy",
+      "name": "Zoox",
+      "url": "https://zoox.com/",
+      "benchmarkType": "robotaxi",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "mobility-ev-autonomy",
+      "industry": "Mobility, EV & Autonomy",
+      "name": "Einride",
+      "url": "https://www.einride.tech/",
+      "benchmarkType": "electric-logistics",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "aviation-aircraft",
+      "industry": "Aviation & Aircraft",
+      "name": "Airbus",
+      "url": "https://www.airbus.com/",
+      "benchmarkType": "commercial-aircraft",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "aviation-aircraft",
+      "industry": "Aviation & Aircraft",
+      "name": "Gulfstream",
+      "url": "https://www.gulfstream.com/",
+      "benchmarkType": "business-aviation",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "aviation-aircraft",
+      "industry": "Aviation & Aircraft",
+      "name": "Bombardier Aircraft",
+      "url": "https://bombardier.com/en/aircraft",
+      "benchmarkType": "business-jets",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "aviation-aircraft",
+      "industry": "Aviation & Aircraft",
+      "name": "Archer",
+      "url": "https://www.archer.com/",
+      "benchmarkType": "evtol",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "airlines-travel-operations",
+      "industry": "Airlines & Travel Operations",
+      "name": "Emirates",
+      "url": "https://www.emirates.com/",
+      "benchmarkType": "premium-airline",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "airlines-travel-operations",
+      "industry": "Airlines & Travel Operations",
+      "name": "Singapore Airlines",
+      "url": "https://www.singaporeair.com/",
+      "benchmarkType": "service",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "airlines-travel-operations",
+      "industry": "Airlines & Travel Operations",
+      "name": "Delta",
+      "url": "https://www.delta.com/",
+      "benchmarkType": "operations",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "airlines-travel-operations",
+      "industry": "Airlines & Travel Operations",
+      "name": "JetBlue",
+      "url": "https://www.jetblue.com/",
+      "benchmarkType": "consumer-airline",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "aerospace-space",
+      "industry": "Aerospace & Space",
+      "name": "NASA",
+      "url": "https://www.nasa.gov/",
+      "benchmarkType": "space-agency",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "aerospace-space",
+      "industry": "Aerospace & Space",
+      "name": "SpaceX",
+      "url": "https://www.spacex.com/",
+      "benchmarkType": "launch-provider",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "aerospace-space",
+      "industry": "Aerospace & Space",
+      "name": "Blue Origin",
+      "url": "https://www.blueorigin.com/",
+      "benchmarkType": "spaceflight",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "aerospace-space",
+      "industry": "Aerospace & Space",
+      "name": "Rocket Lab",
+      "url": "https://www.rocketlabusa.com/",
+      "benchmarkType": "launch-and-space-systems",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "maritime-yachting",
+      "industry": "Maritime & Yachting",
+      "name": "Feadship",
+      "url": "https://feadship.nl/",
+      "benchmarkType": "superyachts",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "maritime-yachting",
+      "industry": "Maritime & Yachting",
+      "name": "Lürssen",
+      "url": "https://www.lurssen.com/en/",
+      "benchmarkType": "shipbuilding",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "maritime-yachting",
+      "industry": "Maritime & Yachting",
+      "name": "Sunseeker",
+      "url": "https://www.sunseeker.com/",
+      "benchmarkType": "luxury-yachts",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "maritime-yachting",
+      "industry": "Maritime & Yachting",
+      "name": "OceanX",
+      "url": "https://oceanx.org/",
+      "benchmarkType": "ocean-exploration",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "industrial-robotics",
+      "industry": "Industrial & Robotics",
+      "name": "Boston Dynamics",
+      "url": "https://bostondynamics.com/",
+      "benchmarkType": "advanced-robotics",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "industrial-robotics",
+      "industry": "Industrial & Robotics",
+      "name": "ABB",
+      "url": "https://global.abb/",
+      "benchmarkType": "industrial-automation",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "industrial-robotics",
+      "industry": "Industrial & Robotics",
+      "name": "KUKA",
+      "url": "https://www.kuka.com/",
+      "benchmarkType": "industrial-robots",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "industrial-robotics",
+      "industry": "Industrial & Robotics",
+      "name": "Universal Robots",
+      "url": "https://www.universal-robots.com/",
+      "benchmarkType": "collaborative-robots",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "construction-engineering",
+      "industry": "Construction & Engineering",
+      "name": "Caterpillar",
+      "url": "https://www.caterpillar.com/",
+      "benchmarkType": "heavy-equipment",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "construction-engineering",
+      "industry": "Construction & Engineering",
+      "name": "Bechtel",
+      "url": "https://www.bechtel.com/",
+      "benchmarkType": "engineering-construction",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "construction-engineering",
+      "industry": "Construction & Engineering",
+      "name": "AECOM",
+      "url": "https://aecom.com/",
+      "benchmarkType": "infrastructure",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "construction-engineering",
+      "industry": "Construction & Engineering",
+      "name": "Built Robotics",
+      "url": "https://www.builtrobotics.com/",
+      "benchmarkType": "construction-robotics",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "logistics-supply-chain",
+      "industry": "Logistics & Supply Chain",
+      "name": "Maersk",
+      "url": "https://www.maersk.com/",
+      "benchmarkType": "global-logistics",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "logistics-supply-chain",
+      "industry": "Logistics & Supply Chain",
+      "name": "DHL",
+      "url": "https://www.dhl.com/",
+      "benchmarkType": "delivery-network",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "logistics-supply-chain",
+      "industry": "Logistics & Supply Chain",
+      "name": "Flexport",
+      "url": "https://www.flexport.com/",
+      "benchmarkType": "digital-freight",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "logistics-supply-chain",
+      "industry": "Logistics & Supply Chain",
+      "name": "Zipline",
+      "url": "https://www.flyzipline.com/",
+      "benchmarkType": "autonomous-delivery",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "energy-climate",
+      "industry": "Energy & Climate",
+      "name": "Climeworks",
+      "url": "https://climeworks.com/",
+      "benchmarkType": "carbon-removal",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "energy-climate",
+      "industry": "Energy & Climate",
+      "name": "Form Energy",
+      "url": "https://formenergy.com/",
+      "benchmarkType": "energy-storage",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "energy-climate",
+      "industry": "Energy & Climate",
+      "name": "Ørsted",
+      "url": "https://orsted.com/",
+      "benchmarkType": "renewable-energy",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "energy-climate",
+      "industry": "Energy & Climate",
+      "name": "Redwood Materials",
+      "url": "https://www.redwoodmaterials.com/",
+      "benchmarkType": "battery-materials",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "agriculture-agtech",
+      "industry": "Agriculture & Agtech",
+      "name": "John Deere",
+      "url": "https://www.deere.com/",
+      "benchmarkType": "farm-equipment",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "agriculture-agtech",
+      "industry": "Agriculture & Agtech",
+      "name": "Indigo Ag",
+      "url": "https://www.indigoag.com/",
+      "benchmarkType": "ag-platform",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "agriculture-agtech",
+      "industry": "Agriculture & Agtech",
+      "name": "Plenty",
+      "url": "https://www.plenty.ag/",
+      "benchmarkType": "vertical-farming",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "agriculture-agtech",
+      "industry": "Agriculture & Agtech",
+      "name": "AeroFarms",
+      "url": "https://www.aerofarms.com/",
+      "benchmarkType": "indoor-agriculture",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "food-restaurants",
+      "industry": "Food & Restaurants",
+      "name": "Noma",
+      "url": "https://noma.dk/",
+      "benchmarkType": "fine-dining",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "food-restaurants",
+      "industry": "Food & Restaurants",
+      "name": "Eleven Madison Park",
+      "url": "https://www.elevenmadisonpark.com/",
+      "benchmarkType": "fine-dining",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "food-restaurants",
+      "industry": "Food & Restaurants",
+      "name": "The Fat Duck",
+      "url": "https://thefatduck.co.uk/",
+      "benchmarkType": "experiential-dining",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "food-restaurants",
+      "industry": "Food & Restaurants",
+      "name": "Sweetgreen",
+      "url": "https://www.sweetgreen.com/",
+      "benchmarkType": "fast-casual",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "beverage-cpg",
+      "industry": "Beverage & CPG",
+      "name": "Oatly",
+      "url": "https://www.oatly.com/",
+      "benchmarkType": "brand-voice",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "beverage-cpg",
+      "industry": "Beverage & CPG",
+      "name": "Liquid Death",
+      "url": "https://liquiddeath.com/",
+      "benchmarkType": "bold-cpg",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "beverage-cpg",
+      "industry": "Beverage & CPG",
+      "name": "Athletic Brewing",
+      "url": "https://athleticbrewing.com/",
+      "benchmarkType": "beverage-commerce",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "beverage-cpg",
+      "industry": "Beverage & CPG",
+      "name": "OLIPOP",
+      "url": "https://drinkolipop.com/",
+      "benchmarkType": "functional-beverage",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "fashion-luxury",
+      "industry": "Fashion & Luxury",
+      "name": "Loewe",
+      "url": "https://www.loewe.com/",
+      "benchmarkType": "fashion-house",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "fashion-luxury",
+      "industry": "Fashion & Luxury",
+      "name": "Jacquemus",
+      "url": "https://www.jacquemus.com/",
+      "benchmarkType": "editorial-fashion",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "fashion-luxury",
+      "industry": "Fashion & Luxury",
+      "name": "Cartier",
+      "url": "https://www.cartier.com/",
+      "benchmarkType": "jewelry-luxury",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "fashion-luxury",
+      "industry": "Fashion & Luxury",
+      "name": "Moncler",
+      "url": "https://www.moncler.com/",
+      "benchmarkType": "fashion-commerce",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "beauty-wellness",
+      "industry": "Beauty & Wellness",
+      "name": "Aesop",
+      "url": "https://www.aesop.com/",
+      "benchmarkType": "premium-skincare",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "beauty-wellness",
+      "industry": "Beauty & Wellness",
+      "name": "Glossier",
+      "url": "https://www.glossier.com/",
+      "benchmarkType": "beauty-commerce",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "beauty-wellness",
+      "industry": "Beauty & Wellness",
+      "name": "Rhode",
+      "url": "https://www.rhodeskin.com/",
+      "benchmarkType": "skincare-brand",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "beauty-wellness",
+      "industry": "Beauty & Wellness",
+      "name": "Headspace",
+      "url": "https://www.headspace.com/",
+      "benchmarkType": "mental-wellness",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "consumer-electronics",
+      "industry": "Consumer Electronics",
+      "name": "Apple",
+      "url": "https://www.apple.com/",
+      "benchmarkType": "product-storytelling",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "consumer-electronics",
+      "industry": "Consumer Electronics",
+      "name": "Teenage Engineering",
+      "url": "https://teenage.engineering/",
+      "benchmarkType": "industrial-design",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "consumer-electronics",
+      "industry": "Consumer Electronics",
+      "name": "Nothing",
+      "url": "https://nothing.tech/",
+      "benchmarkType": "consumer-tech-brand",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "consumer-electronics",
+      "industry": "Consumer Electronics",
+      "name": "Dyson",
+      "url": "https://www.dyson.com/",
+      "benchmarkType": "engineering-commerce",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "home-furniture",
+      "industry": "Home, Furniture & Interiors",
+      "name": "Vitra",
+      "url": "https://www.vitra.com/",
+      "benchmarkType": "design-furniture",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "home-furniture",
+      "industry": "Home, Furniture & Interiors",
+      "name": "Muuto",
+      "url": "https://www.muuto.com/",
+      "benchmarkType": "scandinavian-design",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "home-furniture",
+      "industry": "Home, Furniture & Interiors",
+      "name": "HAY",
+      "url": "https://www.hay.com/",
+      "benchmarkType": "furniture-commerce",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "home-furniture",
+      "industry": "Home, Furniture & Interiors",
+      "name": "Herman Miller",
+      "url": "https://www.hermanmiller.com/",
+      "benchmarkType": "office-furniture",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "architecture-design",
+      "industry": "Architecture & Spatial Design",
+      "name": "BIG",
+      "url": "https://big.dk/",
+      "benchmarkType": "architecture-studio",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "architecture-design",
+      "industry": "Architecture & Spatial Design",
+      "name": "Snøhetta",
+      "url": "https://www.snohetta.com/",
+      "benchmarkType": "multidisciplinary",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "architecture-design",
+      "industry": "Architecture & Spatial Design",
+      "name": "Foster + Partners",
+      "url": "https://www.fosterandpartners.com/",
+      "benchmarkType": "global-architecture",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "architecture-design",
+      "industry": "Architecture & Spatial Design",
+      "name": "Heatherwick Studio",
+      "url": "https://www.heatherwick.com/",
+      "benchmarkType": "spatial-design",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "pets",
+      "industry": "Pets",
+      "name": "Wild One",
+      "url": "https://wildone.com/",
+      "benchmarkType": "pet-products",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "pets",
+      "industry": "Pets",
+      "name": "Fable",
+      "url": "https://fablepets.com/",
+      "benchmarkType": "pet-design",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "pets",
+      "industry": "Pets",
+      "name": "The Farmer's Dog",
+      "url": "https://www.thefarmersdog.com/",
+      "benchmarkType": "pet-food",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "pets",
+      "industry": "Pets",
+      "name": "Tractive",
+      "url": "https://tractive.com/",
+      "benchmarkType": "pet-tech",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "kids-family",
+      "industry": "Kids & Family",
+      "name": "LEGO",
+      "url": "https://www.lego.com/",
+      "benchmarkType": "toys",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "kids-family",
+      "industry": "Kids & Family",
+      "name": "Yoto",
+      "url": "https://us.yotoplay.com/",
+      "benchmarkType": "kids-audio",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "kids-family",
+      "industry": "Kids & Family",
+      "name": "Tonies",
+      "url": "https://us.tonies.com/",
+      "benchmarkType": "kids-audio",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "kids-family",
+      "industry": "Kids & Family",
+      "name": "Lovevery",
+      "url": "https://lovevery.com/",
+      "benchmarkType": "learning-products",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "ecommerce-retail",
+      "industry": "E-commerce & Retail",
+      "name": "Shopify",
+      "url": "https://www.shopify.com/",
+      "benchmarkType": "commerce-platform",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "ecommerce-retail",
+      "industry": "E-commerce & Retail",
+      "name": "IKEA",
+      "url": "https://www.ikea.com/",
+      "benchmarkType": "large-catalog",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "ecommerce-retail",
+      "industry": "E-commerce & Retail",
+      "name": "Patagonia",
+      "url": "https://www.patagonia.com/",
+      "benchmarkType": "brand-commerce",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "ecommerce-retail",
+      "industry": "E-commerce & Retail",
+      "name": "Warby Parker",
+      "url": "https://www.warbyparker.com/",
+      "benchmarkType": "guided-commerce",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "hospitality-travel",
+      "industry": "Hospitality & Travel",
+      "name": "Aman",
+      "url": "https://www.aman.com/",
+      "benchmarkType": "luxury-hospitality",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "hospitality-travel",
+      "industry": "Hospitality & Travel",
+      "name": "Six Senses",
+      "url": "https://www.sixsenses.com/",
+      "benchmarkType": "resorts",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "hospitality-travel",
+      "industry": "Hospitality & Travel",
+      "name": "Belmond",
+      "url": "https://www.belmond.com/",
+      "benchmarkType": "luxury-travel",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "hospitality-travel",
+      "industry": "Hospitality & Travel",
+      "name": "Airbnb",
+      "url": "https://www.airbnb.com/",
+      "benchmarkType": "travel-marketplace",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "real-estate-proptech",
+      "industry": "Real Estate & Proptech",
+      "name": "Compass",
+      "url": "https://www.compass.com/",
+      "benchmarkType": "brokerage",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "real-estate-proptech",
+      "industry": "Real Estate & Proptech",
+      "name": "Zillow",
+      "url": "https://www.zillow.com/",
+      "benchmarkType": "property-marketplace",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "real-estate-proptech",
+      "industry": "Real Estate & Proptech",
+      "name": "Matterport",
+      "url": "https://matterport.com/",
+      "benchmarkType": "spatial-capture",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "real-estate-proptech",
+      "industry": "Real Estate & Proptech",
+      "name": "The Boundary",
+      "url": "https://www.the-boundary.com/",
+      "benchmarkType": "architectural-visualization",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "finance-fintech",
+      "industry": "Finance & Fintech",
+      "name": "Stripe",
+      "url": "https://stripe.com/",
+      "benchmarkType": "payments",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "finance-fintech",
+      "industry": "Finance & Fintech",
+      "name": "Mercury",
+      "url": "https://mercury.com/",
+      "benchmarkType": "business-banking",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "finance-fintech",
+      "industry": "Finance & Fintech",
+      "name": "Ramp",
+      "url": "https://ramp.com/",
+      "benchmarkType": "expense-management",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "finance-fintech",
+      "industry": "Finance & Fintech",
+      "name": "Wise",
+      "url": "https://wise.com/",
+      "benchmarkType": "money-transfer",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "insurance",
+      "industry": "Insurance",
+      "name": "Lemonade",
+      "url": "https://www.lemonade.com/",
+      "benchmarkType": "insurtech",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "insurance",
+      "industry": "Insurance",
+      "name": "Root",
+      "url": "https://www.joinroot.com/",
+      "benchmarkType": "auto-insurance",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "insurance",
+      "industry": "Insurance",
+      "name": "Kin",
+      "url": "https://www.kin.com/",
+      "benchmarkType": "home-insurance",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "insurance",
+      "industry": "Insurance",
+      "name": "Coalition",
+      "url": "https://www.coalitioninc.com/",
+      "benchmarkType": "cyber-insurance",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "legal-compliance",
+      "industry": "Legal & Compliance",
+      "name": "Harvey",
+      "url": "https://www.harvey.ai/",
+      "benchmarkType": "legal-ai",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "legal-compliance",
+      "industry": "Legal & Compliance",
+      "name": "LegalZoom",
+      "url": "https://www.legalzoom.com/",
+      "benchmarkType": "legal-services",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "legal-compliance",
+      "industry": "Legal & Compliance",
+      "name": "Cooley",
+      "url": "https://www.cooley.com/",
+      "benchmarkType": "law-firm",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "legal-compliance",
+      "industry": "Legal & Compliance",
+      "name": "Latham & Watkins",
+      "url": "https://www.lw.com/",
+      "benchmarkType": "law-firm",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "recruitment-hr",
+      "industry": "Recruitment & HR",
+      "name": "Greenhouse",
+      "url": "https://www.greenhouse.com/",
+      "benchmarkType": "ats",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "recruitment-hr",
+      "industry": "Recruitment & HR",
+      "name": "Ashby",
+      "url": "https://www.ashbyhq.com/",
+      "benchmarkType": "recruiting-platform",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "recruitment-hr",
+      "industry": "Recruitment & HR",
+      "name": "Deel",
+      "url": "https://www.deel.com/",
+      "benchmarkType": "global-employment",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "recruitment-hr",
+      "industry": "Recruitment & HR",
+      "name": "Remote",
+      "url": "https://remote.com/",
+      "benchmarkType": "global-hr",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "healthcare-medtech",
+      "industry": "Healthcare & Medtech",
+      "name": "Mayo Clinic",
+      "url": "https://www.mayoclinic.org/",
+      "benchmarkType": "clinical-information",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "healthcare-medtech",
+      "industry": "Healthcare & Medtech",
+      "name": "One Medical",
+      "url": "https://www.onemedical.com/",
+      "benchmarkType": "care-delivery",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "healthcare-medtech",
+      "industry": "Healthcare & Medtech",
+      "name": "Hims",
+      "url": "https://www.hims.com/",
+      "benchmarkType": "consumer-health",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "healthcare-medtech",
+      "industry": "Healthcare & Medtech",
+      "name": "Levels",
+      "url": "https://www.levels.com/",
+      "benchmarkType": "health-platform",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "biotech-pharma",
+      "industry": "Biotech & Pharma",
+      "name": "Moderna",
+      "url": "https://www.modernatx.com/",
+      "benchmarkType": "biopharma",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "biotech-pharma",
+      "industry": "Biotech & Pharma",
+      "name": "Ginkgo Bioworks",
+      "url": "https://www.ginkgobioworks.com/",
+      "benchmarkType": "platform-biotech",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "biotech-pharma",
+      "industry": "Biotech & Pharma",
+      "name": "Recursion",
+      "url": "https://www.recursion.com/",
+      "benchmarkType": "techbio",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "biotech-pharma",
+      "industry": "Biotech & Pharma",
+      "name": "insitro",
+      "url": "https://www.insitro.com/",
+      "benchmarkType": "ml-drug-discovery",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "education-edtech",
+      "industry": "Education & Edtech",
+      "name": "Duolingo",
+      "url": "https://www.duolingo.com/",
+      "benchmarkType": "consumer-learning",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "education-edtech",
+      "industry": "Education & Edtech",
+      "name": "Khan Academy",
+      "url": "https://www.khanacademy.org/",
+      "benchmarkType": "learning-platform",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "education-edtech",
+      "industry": "Education & Edtech",
+      "name": "Brilliant",
+      "url": "https://brilliant.org/",
+      "benchmarkType": "interactive-learning",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "education-edtech",
+      "industry": "Education & Edtech",
+      "name": "MasterClass",
+      "url": "https://www.masterclass.com/",
+      "benchmarkType": "course-subscription",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "sports-fitness",
+      "industry": "Sports & Fitness",
+      "name": "Nike",
+      "url": "https://www.nike.com/",
+      "benchmarkType": "sports-brand",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "sports-fitness",
+      "industry": "Sports & Fitness",
+      "name": "Strava",
+      "url": "https://www.strava.com/",
+      "benchmarkType": "fitness-community",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "sports-fitness",
+      "industry": "Sports & Fitness",
+      "name": "WHOOP",
+      "url": "https://www.whoop.com/",
+      "benchmarkType": "performance-wearable",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "sports-fitness",
+      "industry": "Sports & Fitness",
+      "name": "On",
+      "url": "https://www.on.com/",
+      "benchmarkType": "running-brand",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "entertainment-streaming",
+      "industry": "Entertainment & Streaming",
+      "name": "Netflix",
+      "url": "https://www.netflix.com/",
+      "benchmarkType": "streaming",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "entertainment-streaming",
+      "industry": "Entertainment & Streaming",
+      "name": "Disney+",
+      "url": "https://www.disneyplus.com/",
+      "benchmarkType": "streaming",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "entertainment-streaming",
+      "industry": "Entertainment & Streaming",
+      "name": "A24",
+      "url": "https://a24films.com/",
+      "benchmarkType": "film-studio",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "entertainment-streaming",
+      "industry": "Entertainment & Streaming",
+      "name": "MUBI",
+      "url": "https://mubi.com/",
+      "benchmarkType": "curated-cinema",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "gaming-esports",
+      "industry": "Gaming & Esports",
+      "name": "PlayStation",
+      "url": "https://www.playstation.com/",
+      "benchmarkType": "gaming-platform",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "gaming-esports",
+      "industry": "Gaming & Esports",
+      "name": "Xbox",
+      "url": "https://www.xbox.com/",
+      "benchmarkType": "gaming-platform",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "gaming-esports",
+      "industry": "Gaming & Esports",
+      "name": "Riot Games",
+      "url": "https://www.riotgames.com/",
+      "benchmarkType": "publisher",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "gaming-esports",
+      "industry": "Gaming & Esports",
+      "name": "Epic Games",
+      "url": "https://www.epicgames.com/",
+      "benchmarkType": "publisher-platform",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "music-events",
+      "industry": "Music & Events",
+      "name": "Spotify",
+      "url": "https://www.spotify.com/",
+      "benchmarkType": "music-streaming",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "music-events",
+      "industry": "Music & Events",
+      "name": "Sonos",
+      "url": "https://www.sonos.com/",
+      "benchmarkType": "audio-hardware",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "music-events",
+      "industry": "Music & Events",
+      "name": "Boiler Room",
+      "url": "https://boilerroom.tv/",
+      "benchmarkType": "music-events",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "music-events",
+      "industry": "Music & Events",
+      "name": "Coachella",
+      "url": "https://www.coachella.com/",
+      "benchmarkType": "festival",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "media-publishing",
+      "industry": "Media & Publishing",
+      "name": "The New York Times",
+      "url": "https://www.nytimes.com/",
+      "benchmarkType": "news",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "media-publishing",
+      "industry": "Media & Publishing",
+      "name": "Bloomberg",
+      "url": "https://www.bloomberg.com/",
+      "benchmarkType": "business-media",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "media-publishing",
+      "industry": "Media & Publishing",
+      "name": "Monocle",
+      "url": "https://monocle.com/",
+      "benchmarkType": "magazine",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "media-publishing",
+      "industry": "Media & Publishing",
+      "name": "The Pudding",
+      "url": "https://pudding.cool/",
+      "benchmarkType": "visual-essays",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "museums-culture",
+      "industry": "Museums & Culture",
+      "name": "MoMA",
+      "url": "https://www.moma.org/",
+      "benchmarkType": "modern-art",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "museums-culture",
+      "industry": "Museums & Culture",
+      "name": "The Met",
+      "url": "https://www.metmuseum.org/",
+      "benchmarkType": "museum",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "museums-culture",
+      "industry": "Museums & Culture",
+      "name": "Tate",
+      "url": "https://www.tate.org.uk/",
+      "benchmarkType": "art-institution",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "museums-culture",
+      "industry": "Museums & Culture",
+      "name": "Louvre",
+      "url": "https://www.louvre.fr/en",
+      "benchmarkType": "museum",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "nonprofit-social-impact",
+      "industry": "Nonprofit & Social Impact",
+      "name": "charity: water",
+      "url": "https://www.charitywater.org/",
+      "benchmarkType": "charity",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "nonprofit-social-impact",
+      "industry": "Nonprofit & Social Impact",
+      "name": "WWF",
+      "url": "https://www.worldwildlife.org/",
+      "benchmarkType": "conservation",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "nonprofit-social-impact",
+      "industry": "Nonprofit & Social Impact",
+      "name": "The Ocean Cleanup",
+      "url": "https://theoceancleanup.com/",
+      "benchmarkType": "environmental-technology",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "nonprofit-social-impact",
+      "industry": "Nonprofit & Social Impact",
+      "name": "Mozilla Foundation",
+      "url": "https://foundation.mozilla.org/",
+      "benchmarkType": "digital-rights",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "government-public-services",
+      "industry": "Government & Public Services",
+      "name": "GOV.UK",
+      "url": "https://www.gov.uk/",
+      "benchmarkType": "government-services",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "government-public-services",
+      "industry": "Government & Public Services",
+      "name": "U.S. Web Design System",
+      "url": "https://designsystem.digital.gov/",
+      "benchmarkType": "public-design-system",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "government-public-services",
+      "industry": "Government & Public Services",
+      "name": "NHS",
+      "url": "https://www.nhs.uk/",
+      "benchmarkType": "public-health-service",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "government-public-services",
+      "industry": "Government & Public Services",
+      "name": "Gov.sg",
+      "url": "https://www.gov.sg/",
+      "benchmarkType": "government-information",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "science-research",
+      "industry": "Science & Research",
+      "name": "CERN",
+      "url": "https://home.cern/",
+      "benchmarkType": "physics-research",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "science-research",
+      "industry": "Science & Research",
+      "name": "MIT Media Lab",
+      "url": "https://www.media.mit.edu/",
+      "benchmarkType": "research-lab",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "science-research",
+      "industry": "Science & Research",
+      "name": "Allen Institute",
+      "url": "https://alleninstitute.org/",
+      "benchmarkType": "bioscience-research",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "science-research",
+      "industry": "Science & Research",
+      "name": "HHMI",
+      "url": "https://www.hhmi.org/",
+      "benchmarkType": "biomedical-research",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "telecom-connectivity",
+      "industry": "Telecom & Connectivity",
+      "name": "Starlink",
+      "url": "https://www.starlink.com/",
+      "benchmarkType": "satellite-internet",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "telecom-connectivity",
+      "industry": "Telecom & Connectivity",
+      "name": "Verizon",
+      "url": "https://www.verizon.com/",
+      "benchmarkType": "carrier",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "telecom-connectivity",
+      "industry": "Telecom & Connectivity",
+      "name": "T-Mobile",
+      "url": "https://www.t-mobile.com/",
+      "benchmarkType": "carrier",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "telecom-connectivity",
+      "industry": "Telecom & Connectivity",
+      "name": "Nokia",
+      "url": "https://www.nokia.com/",
+      "benchmarkType": "network-technology",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "web3-digital-assets",
+      "industry": "Web3 & Digital Assets",
+      "name": "Coinbase",
+      "url": "https://www.coinbase.com/",
+      "benchmarkType": "exchange",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "web3-digital-assets",
+      "industry": "Web3 & Digital Assets",
+      "name": "Ledger",
+      "url": "https://www.ledger.com/",
+      "benchmarkType": "hardware-wallet",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "web3-digital-assets",
+      "industry": "Web3 & Digital Assets",
+      "name": "Ethereum",
+      "url": "https://ethereum.org/",
+      "benchmarkType": "protocol-ecosystem",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    },
+    {
+      "industryId": "web3-digital-assets",
+      "industry": "Web3 & Digital Assets",
+      "name": "Uniswap",
+      "url": "https://uniswap.org/",
+      "benchmarkType": "defi-protocol",
+      "status": "seed-reference",
+      "runtimeRule": "Re-open and analyze current desktop/mobile behavior before using. Do not assume technology or copy execution."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+# QA checklist
+
+- [ ] Clear hierarchy before animation.
+- [ ] One coherent motion language.
+- [ ] No visible provider watermark.
+- [ ] No accidental crop, zoom or upscaling.
+- [ ] Framed media has intentional surroundings.
+- [ ] Transparent objects truly blend with the page.
+- [ ] Scroll-linked motion works in both directions.
+- [ ] Pinned sections release correctly.
+- [ ] Continuous loops pause offscreen.
+- [ ] Route changes clean up timelines/listeners/resources.
+- [ ] Reduced-motion path works.
+- [ ] Native media resolution supports display size.
+- [ ] Posters match video framing.
+- [ ] Keyboard/focus/touch behavior works.
+- [ ] No horizontal overflow or major CLS.
+- [ ] Heavy sections lazy-load and cap DPR.
+- [ ] CPU-throttled interaction remains usable.
+- [ ] Console/network are clean.
+- [ ] Production build passes.
+- [ ] Libraries/licenses/attributions are recorded.

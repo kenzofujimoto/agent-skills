@@ -1,0 +1,38 @@
+{
+  "sectionId": "approval-portal",
+  "query": [
+    "futuristic portal",
+    "sci fi ring",
+    "holographic gateway"
+  ],
+  "style": [
+    "premium",
+    "minimal",
+    "white ceramic",
+    "graphite",
+    "red emissive"
+  ],
+  "usage": "commercial-promotional-website",
+  "renderMode": "webgl-scene",
+  "engine": "react-three-fiber",
+  "needsAnimation": true,
+  "needsRig": false,
+  "modificationRequired": true,
+  "licenseAllowlist": [
+    "CC0",
+    "CC-BY",
+    "CC-BY-SA"
+  ],
+  "licenseDenylist": [
+    "CC-BY-NC",
+    "CC-BY-ND",
+    "Editorial"
+  ],
+  "budget": {
+    "maxCompressedBytes": 8000000,
+    "maxTrianglesDesktop": 150000,
+    "maxTrianglesMobile": 60000,
+    "maxMaterials": 8,
+    "maxTextureDimension": 2048
+  }
+}

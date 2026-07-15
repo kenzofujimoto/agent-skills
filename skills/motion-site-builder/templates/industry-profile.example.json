@@ -1,0 +1,42 @@
+{
+  "primaryIndustryId": "automotive",
+  "secondaryIndustryIds": [
+    "fashion-luxury"
+  ],
+  "subindustry": "electric performance vehicle",
+  "audience": [
+    "premium buyers",
+    "enthusiasts"
+  ],
+  "businessObjective": "launch product and drive test-drive bookings",
+  "experienceArchetypes": [
+    "product-launch",
+    "3d-configurator",
+    "spec-comparison"
+  ],
+  "contentPriorities": [
+    "exterior and interior",
+    "range",
+    "performance",
+    "versions",
+    "test drive"
+  ],
+  "motionMetaphors": [
+    "light sweep",
+    "acceleration",
+    "mechanical precision"
+  ],
+  "recommendedMedia": [
+    "licensed exact 3D model",
+    "product photography",
+    "technical diagrams"
+  ],
+  "riskMode": "product-accuracy",
+  "motionIntensity": 7,
+  "selectedReferences": [
+    {
+      "url": "https://www.porsche.com/",
+      "reason": "product hierarchy and premium presentation"
+    }
+  ]
+}
