@@ -90,6 +90,15 @@ Packages are written to `dist/<name>-v<version>.zip` with an adjacent SHA-256 fi
 
 Both companion skills are distributed in this repository. `ui-ux-pro-max` is pinned to the official upstream `v2.11.0` release, while `scroll-world-browser` is a browser-provider adaptation derived from [oso95/scroll-world](https://github.com/oso95/scroll-world). Their upstream MIT notices and provenance are preserved inside each skill.
 
+## External engineering skill references (not bundled)
+
+I also study and compare the following independent, upstream skill systems when designing my own prompts and workflows:
+
+- **[Matt Pocock — Skills for Real Engineers](https://github.com/mattpocock/skills):** domain glossaries and shared vocabulary, small reviewable changes, TDD, diagnosis, specs and architectural feedback loops. I use these as references for thinking about agent quality, not as claims that those upstream skills were authored here.
+- **[obra/superpowers](https://github.com/obra/superpowers):** composable software-development methodology covering brainstorming, plans, git worktrees, subagent execution, TDD, code review and verification. These are upstream reference workflows, **not** vendored dependencies or automatically installed by this repository.
+
+For the difference between **bundled third-party code** and **external reading/references**, see [THIRD_PARTY.md](THIRD_PARTY.md).
+
 ## Security and licensing
 
 Never commit credentials, browser profiles, cookies, private assets, or `.env` files. Run `python scripts/validate_repo.py` before every contribution and report vulnerabilities according to [SECURITY.md](SECURITY.md).
