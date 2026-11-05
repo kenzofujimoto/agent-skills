@@ -77,6 +77,15 @@ O pacote e seu SHA-256 são criados em `dist/`, que não é versionado.
 
 A `motion-site-builder` pode coordenar [`ui-ux-pro-max`](skills/ui-ux-pro-max) para pesquisa de design systems e [`scroll-world-browser`](skills/scroll-world-browser) para fluxos cinematográficos assistidos por navegador. Ambas são distribuídas neste repositório com licença e proveniência preservadas. A primeira está fixada na release upstream `v2.11.0`; a segunda é uma adaptação derivada de [oso95/scroll-world](https://github.com/oso95/scroll-world).
 
+## Referências externas de skills de engenharia (não incluídas)
+
+Também estudo e comparo metodologias de autores independentes para melhorar meus próprios workflows:
+
+- **[Matt Pocock — Skills for Real Engineers](https://github.com/mattpocock/skills):** glossários de domínio, TDD, diagnóstico, especificações, revisão de arquitetura e ciclos de feedback.
+- **[obra/superpowers](https://github.com/obra/superpowers):** abordagem composável de brainstorming, planejamento, worktrees, subagentes, testes, revisão e verificação.
+
+São **referências de terceiros, não skills que eu tenha criado ou incorporado automaticamente**. As skills efetivamente distribuídas neste repositório continuam identificadas na tabela acima. Consulte [THIRD_PARTY.md](THIRD_PARTY.md) para autoria e licenças.
+
 ## Segurança, licenças e roadmap
 
 Nunca publique tokens, perfis de navegador, cookies, `.env` ou assets privados. Consulte [SECURITY.md](SECURITY.md). Código e documentação originais usam MIT; terceiros mantêm suas próprias licenças, conforme [THIRD_PARTY.md](THIRD_PARTY.md).
