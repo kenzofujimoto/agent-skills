@@ -7,4 +7,11 @@
 - GSAP, Motion, Three.js, React Three Fiber, Rive, Lottie, and other libraries retain their own licenses and terms.
 - Users must verify licenses before copying components, reproducing designs, or distributing assets.
 
+## External skill references (linked, not redistributed)
+
+- [mattpocock/skills](https://github.com/mattpocock/skills) — independent engineering skill patterns and documentation. **Link only**; none of its code or assets is bundled here by this entry.
+- [obra/superpowers](https://github.com/obra/superpowers) — independent composable agentic development methodology. **Link only**; none of its code or assets is bundled here by this entry.
+
+A reference to an upstream project does not mean that I created, maintain, endorse, have installed, or forked that project. Before copying any files, inspect the upstream license and preserve notices.
+
 This repository intentionally contains no third-party 3D models, images, or videos. Bundling MIT-licensed source and structured design data does not grant rights to external fonts, provider outputs, linked sites, or generated media.
